@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "strictNullChecks": true
-  },
-  "include": ["**/*.ts", "src/App.tsx", "src/index.tsx", "src/components/ControlBar.tsx", "src/components/CleanChat.tsx"]
-}

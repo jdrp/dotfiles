@@ -1,3 +1,0 @@
-function eqSignal = equalizer()
-
-end

@@ -1,2 +1,0 @@
-function tx = randomOFDMwithQPSK()
-end

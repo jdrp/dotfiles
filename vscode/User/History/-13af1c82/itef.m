@@ -1,1 +1,0 @@
-numBits = 44 * 96 * log2(m_ary) / max(1, size(generatorPolys, 1));
