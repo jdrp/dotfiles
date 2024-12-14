@@ -1,0 +1,19 @@
+function [interleavedBits] = interleaver(bits, numCarriers, numSymbols)
+    % Total number of coded bits
+    numBits = length(bits);
+    NCBPS = numBits / numSymbols; % Number of coded bits per symbol
+
+    % Ensure NCBPS is an integer
+    assert(mod(numBits, numSymbols) == 0, 'numBits must be divisible by numSymbols.');
+
+    % Calculate step size `s`
+    s = 8 * (1 + floor(NCBPS / 2));
+
+    % Initialize interleavedBits array
+    interleavedBits = zeros(size(bits));
+    k = 0:numBits - 1; % Input indices
+
+    % Interleaving formula
+    wIndex = mod(k, s) * floor(NCBPS / s) + floor(k / s) + 1; % Ensure indices are integers
+    interleavedBits(wIndex) = bits(k + 1); % Adjust indexing for MATLAB
+end

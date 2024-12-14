@@ -1,0 +1,51 @@
+2024-10-29 16:27:03,738 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:27:03,762 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-29 16:27:03,763 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/zone", VALUE: "europe-west1-b"]
+2024-10-29 16:27:03,846 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-29 16:27:04,130 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica5-1234/zones/europe-west1-b?alt=json HTTP/1.1" 403 None
+2024-10-29 16:27:06,336 INFO     ___FILE_ONLY___ Enabling service [compute.googleapis.com] on project [practica5-1234]...
+
+2024-10-29 16:27:06,349 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:07,791 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/practica5-1234/services/compute.googleapis.com:enable?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:07,799 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:08,702 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:10,797 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:11,679 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:14,442 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:15,670 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:18,975 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:19,870 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:22,679 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:23,467 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:26,868 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:27,943 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:31,329 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:32,259 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:36,806 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:37,681 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:42,423 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:43,310 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:48,267 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:49,358 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:27:54,095 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:27:55,093 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:00,962 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:28:01,850 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:07,873 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:28:08,711 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:15,446 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:28:16,293 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:24,014 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:28:25,259 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:33,429 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:28:34,484 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:34,493 INFO     ___FILE_ONLY___ Operation "operations/acf.p2-453953318241-3d4ab35a-c497-4083-b5da-c6eca8ef1972" finished successfully.
+
+2024-10-29 16:28:34,494 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-29 16:28:35,032 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica5-1234/zones/europe-west1-b?alt=json HTTP/1.1" 200 None
+2024-10-29 16:28:35,037 WARNING  root            Property validation for compute/zone was skipped.
+2024-10-29 16:28:35,038 INFO     ___FILE_ONLY___ Updated property [compute/zone].
+
+2024-10-29 16:28:35,039 DEBUG    root            Chosen display Format:default
+2024-10-29 16:28:35,039 INFO     root            Display format: "default"
+2024-10-29 16:28:35,039 DEBUG    root            SDK update checks are disabled.

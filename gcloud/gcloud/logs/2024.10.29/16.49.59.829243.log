@@ -1,0 +1,13 @@
+2024-10-29 16:49:59,831 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 16:49:59,831 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2024-10-29 16:49:59,907 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [NAME: "cluster1"]
+2024-10-29 16:49:59,909 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2024-10-29 16:49:59,911 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:50:00,248 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/clusters/cluster1?alt=json HTTP/1.1" 200 None
+2024-10-29 16:50:00,272 DEBUG    root            Saved kubeconfig to /home/javierdrp/.kube/config
+2024-10-29 16:50:00,272 INFO     ___FILE_ONLY___ kubeconfig entry generated for cluster1.
+
+2024-10-29 16:50:00,273 DEBUG    root            Chosen display Format:default
+2024-10-29 16:50:00,273 INFO     root            Display format: "default"
+2024-10-29 16:50:00,273 DEBUG    root            SDK update checks are disabled.

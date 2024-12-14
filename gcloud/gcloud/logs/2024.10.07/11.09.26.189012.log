@@ -1,0 +1,70 @@
+2024-10-07 11:09:26,200 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-07 11:09:26,202 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2024-10-07 11:09:26,205 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'add_metadata']
+2024-10-07 11:09:26,206 DEBUG    root            Running [gcloud.compute.project-info.add-metadata] with arguments: [--metadata: "OrderedDict([('enable-oslogin', 'FALSE')])", --project: "practica4-1234"]
+2024-10-07 11:09:26,446 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 11:09:26,798 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234?alt=json HTTP/1.1" 200 None
+2024-10-07 11:09:26,807 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 11:09:27,740 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/practica4-1234/setCommonInstanceMetadata?alt=json HTTP/1.1" 200 None
+2024-10-07 11:09:27,743 DEBUG    root            Operations to inspect: [(<Operation
+ id: 5769512443225971624
+ insertTime: '2024-10-07T02:09:27.393-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/practica4-1234/global/operations/operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'>
+ startTime: '2024-10-07T02:09:27.400-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 105026328049
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/practica4-1234'
+ user: 'ansible-admin@practica4-1234.iam.gserviceaccount.com'
+ warnings: []>, 3)]
+2024-10-07 11:09:27,745 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 11:09:40,475 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/practica4-1234/global/operations/operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6/wait?alt=json HTTP/1.1" 200 None
+2024-10-07 11:09:40,479 DEBUG    root            Operations to inspect: [(<Operation
+ endTime: '2024-10-07T02:09:40.085-07:00'
+ id: 5769512443225971624
+ insertTime: '2024-10-07T02:09:27.393-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/practica4-1234/global/operations/operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1728292166914-623df60ad5206-c94f0ead-77cc22b6'
+ perLocationOperations: <PerLocationOperationsValue
+ additionalProperties: [<AdditionalProperty
+ key: 'europe-southwest1-a'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'europe-southwest1-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'europe-southwest1-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'europe-west1-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'europe-west1-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'europe-west1-d'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>]>>
+ startTime: '2024-10-07T02:09:27.400-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 105026328049
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/practica4-1234'
+ user: 'ansible-admin@practica4-1234.iam.gserviceaccount.com'
+ warnings: []>, 3)]
+2024-10-07 11:09:40,480 INFO     ___FILE_ONLY___ Updated [https://www.googleapis.com/compute/v1/projects/practica4-1234].
+
+2024-10-07 11:09:40,482 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 11:09:40,951 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234?alt=json HTTP/1.1" 200 None
+2024-10-07 11:09:40,955 DEBUG    root            Chosen display Format:none
+2024-10-07 11:09:40,955 INFO     root            Display format: "none"
+2024-10-07 11:09:40,964 DEBUG    root            SDK update checks are disabled.

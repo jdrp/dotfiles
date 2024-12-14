@@ -1,0 +1,30 @@
+2024-10-30 13:25:57,456 DEBUG    root            Loaded Command Group: ['gcloud', 'run']
+2024-10-30 13:25:57,586 DEBUG    root            Loaded Command Group: ['gcloud', 'run', 'deploy']
+2024-10-30 13:25:57,594 DEBUG    root            Running [gcloud.run.deploy] with arguments: [--allow-unauthenticated: "True", --image: "gcr.io/proyectotest-1/cloud-run-example", --platform: "managed", --region: "europe-southwest1", SERVICE: "cloud-run-example"]
+2024-10-30 13:25:57,605 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:25:58,807 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/proyectotest-1/services/run.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:25:58,841 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:25:59,215 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "GET /apis/serving.knative.dev/v1/namespaces/proyectotest-1/services/cloud-run-example?alt=json HTTP/1.1" 404 None
+2024-10-30 13:25:59,218 INFO     ___FILE_ONLY___ Deploying container to Cloud Run service [[1mcloud-run-example[m] in project [[1mproyectotest-1[m] region [[1meurope-southwest1[m]
+
+2024-10-30 13:25:59,219 INFO     ___FILE_ONLY___ Deploying new service...
+2024-10-30 13:25:59,224 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:26:00,854 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "POST /apis/serving.knative.dev/v1/namespaces/proyectotest-1/services?alt=json HTTP/1.1" 200 None
+2024-10-30 13:26:00,863 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): run.googleapis.com:443
+2024-10-30 13:26:01,556 DEBUG    urllib3.connectionpool https://run.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/europe-southwest1/services/cloud-run-example:getIamPolicy?alt=json HTTP/1.1" 200 None
+2024-10-30 13:26:01,562 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): run.googleapis.com:443
+2024-10-30 13:26:02,852 DEBUG    urllib3.connectionpool https://run.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/europe-southwest1/services/cloud-run-example:setIamPolicy?alt=json HTTP/1.1" 200 None
+2024-10-30 13:26:02,860 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:26:55,890 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/europe-southwest1/operations/279a601e-1cae-4af2-b33d-033d2175d7e3:wait?alt=json HTTP/1.1" 200 None
+2024-10-30 13:26:58,615 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:27:39,563 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/europe-southwest1/operations/279a601e-1cae-4af2-b33d-033d2175d7e3:wait?alt=json HTTP/1.1" 200 None
+2024-10-30 13:27:39,575 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:27:39,777 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/europe-southwest1/operations/279a601e-1cae-4af2-b33d-033d2175d7e3:wait?alt=json HTTP/1.1" 200 None
+2024-10-30 13:27:39,794 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:27:39,893 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/europe-southwest1/operations/279a601e-1cae-4af2-b33d-033d2175d7e3:wait?alt=json HTTP/1.1" 200 None
+2024-10-30 13:27:40,003 INFO     ___FILE_ONLY___ Service [[1mcloud-run-example[m] revision [[1mcloud-run-example-00001-m5x[m] has been deployed and is serving [1m100[m percent of traffic.
+Service URL: [1mhttps://cloud-run-example-166772230865.europe-southwest1.run.app[m
+
+2024-10-30 13:27:40,004 DEBUG    root            Chosen display Format:none
+2024-10-30 13:27:40,004 INFO     root            Display format: "none"
+2024-10-30 13:27:40,017 DEBUG    root            SDK update checks are disabled.

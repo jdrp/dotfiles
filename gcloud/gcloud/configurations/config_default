@@ -1,0 +1,8 @@
+[core]
+account = jdiazderabago@gmail.com
+project = proyectotest-1
+
+[compute]
+zone = europe-west1-b
+region = europe-west1
+

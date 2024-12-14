@@ -1,0 +1,33 @@
+2024-10-07 10:59:30,099 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-07 10:59:30,114 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2024-10-07 10:59:30,117 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [[USER@]INSTANCE: "34.77.222.122"]
+2024-10-07 10:59:30,262 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 10:59:30,394 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234/zones/europe-west1-b/instances/34.77.222.122?alt=json HTTP/1.1" 400 None
+2024-10-07 10:59:30,397 DEBUG    root            Chosen display Format:list[title="Could not fetch resource:",always-display-title]
+2024-10-07 10:59:30,398 DEBUG    root            (gcloud.compute.ssh) Could not fetch resource:
+ - Invalid value for field 'instance': '34.77.222.122'. Must be a match of regex '[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?|[1-9][0-9]{0,19}'
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/compute/ssh.py", line 287, in Run
+    instance = ssh_helper.GetInstance(client, instance_ref)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/ssh_utils.py", line 533, in GetInstance
+    return client.MakeRequests([request])[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 145, in MakeRequests
+    utils.RaiseToolException(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 139, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 148, in RaiseException
+    raise exception(
+googlecloudsdk.calliope.exceptions.ToolException: Could not fetch resource:
+ - Invalid value for field 'instance': '34.77.222.122'. Must be a match of regex '[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?|[1-9][0-9]{0,19}'
+
+2024-10-07 10:59:30,400 ERROR    root            (gcloud.compute.ssh) Could not fetch resource:
+ - Invalid value for field 'instance': '34.77.222.122'. Must be a match of regex '[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?|[1-9][0-9]{0,19}'
+

@@ -1,0 +1,47 @@
+function [decodedBits] = convolutionalDecoder(encodedBits, generatorPolys)
+    % Determine the constraint length from the generator polynomials
+    constraintLength = size(generatorPolys, 2);
+    numGenerators = size(generatorPolys, 1);
+
+    % Initialize array to hold generator polynomials in octal format
+    generatorOctal = zeros(1, numGenerators);
+
+    % Convert binary generator polynomials to octal format
+    for i = 1:numGenerators
+        % Reverse the polynomial to match MATLAB's notation (highest power first)
+        polyBits = fliplr(generatorPolys(i, :));
+        % Convert binary bits to decimal
+        polyDec = polyBits * (2.^(0:constraintLength-1))';
+        % Store decimal directly (poly2trellis accepts decimal numbers)
+        generatorOctal(i) = polyDec;
+    end
+
+    % Display generator polynomials in octal format
+    disp('Generator Octal:');
+    disp(generatorOctal);
+
+    % Create trellis structure for the Viterbi decoder
+    trellis = poly2trellis(constraintLength, generatorOctal);
+
+    % Display trellis structure
+    disp('Trellis structure:');
+    disp(trellis);
+
+    % Check if trellis is valid
+    isValidTrellis = istrellis(trellis);
+    disp(['Is trellis valid: ', num2str(isValidTrellis)]);
+
+    % Set the traceback depth (typically 5 times the constraint length)
+    tbdepth = max(5 * constraintLength, 32);
+
+    disp(['Traceback depth: ', num2str(tbdepth)]);
+
+    % Ensure encodedBits is a column vector
+    encodedBits = encodedBits(:);
+
+    % Perform Viterbi decoding using hard-decision decoding
+    decodedBits = vitdec(encodedBits, trellis, tbdepth, 'trunc', 'hard');
+
+    % Return decoded bits as a row vector to match input format
+    decodedBits = decodedBits.';
+end

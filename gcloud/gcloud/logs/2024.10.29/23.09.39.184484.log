@@ -1,0 +1,63 @@
+2024-10-29 23:09:39,186 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 23:09:39,187 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'update']
+2024-10-29 23:09:39,223 DEBUG    root            Running [gcloud.container.clusters.update] with arguments: [--enable-autoscaling: "True", --max-nodes: "5", --min-nodes: "1", NAME: "demo-cluster"]
+2024-10-29 23:09:39,225 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:09:39,469 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/clusters/demo-cluster?alt=json HTTP/1.1" 404 None
+2024-10-29 23:09:39,475 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:09:40,093 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/-/clusters?alt=json HTTP/1.1" 200 None
+2024-10-29 23:09:40,099 WARNING  root            Problem loading details of cluster to update:
+
+ResponseError: code=404, message=Not found: projects/practica5-1234/zones/europe-west1-b/clusters/demo-cluster. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property.
+No cluster named 'demo-cluster' in practica5-1234.
+
+You can still attempt updates to the cluster.
+
+2024-10-29 23:09:40,101 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:09:40,489 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "PUT /v1/projects/practica5-1234/locations/europe-west1-b/clusters/demo-cluster?alt=json HTTP/1.1" 404 None
+2024-10-29 23:09:40,494 DEBUG    root            Chosen display Format:default
+2024-10-29 23:09:40,510 DEBUG    root            Chosen display Format:default
+2024-10-29 23:09:40,511 DEBUG    root            Chosen display Format:default
+2024-10-29 23:09:40,512 DEBUG    root            (gcloud.container.clusters.update) NOT_FOUND: Not found: projects/practica5-1234/zones/europe-west1-b/clusters/demo-cluster. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property.
+- '@type': type.googleapis.com/google.rpc.RequestInfo
+  requestId: '0xa8dbc5f13fa5e6f5'
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/update.py", line 900, in Run
+    op_ref = adapter.UpdateCluster(cluster_ref, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 4518, in UpdateCluster
+    op = self.client.projects_locations_clusters.Update(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/container/v1/container_v1_client.py", line 979, in Update
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpNotFoundError: HttpError accessing <https://container.googleapis.com/v1/projects/practica5-1234/locations/europe-west1-b/clusters/demo-cluster?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Tue, 29 Oct 2024 22:09:40 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': 404}>, content <{
+  "error": {
+    "code": 404,
+    "message": "Not found: projects/practica5-1234/zones/europe-west1-b/clusters/demo-cluster.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.RequestInfo",
+        "requestId": "0xa8dbc5f13fa5e6f5"
+      }
+    ]
+  }
+}
+>
+2024-10-29 23:09:40,515 ERROR    root            (gcloud.container.clusters.update) NOT_FOUND: Not found: projects/practica5-1234/zones/europe-west1-b/clusters/demo-cluster. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property.
+- '@type': type.googleapis.com/google.rpc.RequestInfo
+  requestId: '0xa8dbc5f13fa5e6f5'

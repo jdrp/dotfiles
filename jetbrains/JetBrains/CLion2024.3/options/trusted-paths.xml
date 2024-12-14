@@ -1,0 +1,32 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learnopengl" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learnopengl/0gettingstarted" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learnopengl/1.5imgui" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learnopengl/1lightning" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/raytracer" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/test1" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/tictactoe" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive/icai/tfg/llm_hallucinations" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive/learncpp/learnopengl/1.5imgui" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive/learncpp/raytracer" value="true" />
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/0gettingstarted" value="true" />
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learn-opengl" value="true" />
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/opengl-template" value="true" />
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/test1" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp" />
+        <option value="$USER_HOME$/Documents/OneDrive/icai/tfg" />
+        <option value="$USER_HOME$/Documents/OneDrive/learncpp/learnopengl" />
+      </list>
+    </option>
+  </component>
+</application>

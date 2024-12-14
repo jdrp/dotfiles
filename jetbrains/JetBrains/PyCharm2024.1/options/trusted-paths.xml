@@ -1,0 +1,24 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project" value="true" />
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg" value="true" />
+        <entry key="$USER_HOME$/Documents/ns-3-dev" value="true" />
+        <entry key="$USER_HOME$/Documents/ns-3-dev/masticc" value="true" />
+        <entry key="$USER_HOME$/llama2base" value="true" />
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai" />
+        <option value="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/icai" />
+        <option value="$USER_HOME$/Documents/ns-3-dev" />
+        <option value="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,24 @@
+2024-10-29 16:34:53,768 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 16:34:53,769 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'delete']
+2024-10-29 16:34:53,792 DEBUG    root            Running [gcloud.container.clusters.delete] with arguments: [NAME:1: "['cluster1']"]
+2024-10-29 16:34:53,792 DEBUG    root            Chosen display Format:list[title="The following clusters will be deleted."]
+2024-10-29 16:34:55,069 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:34:55,651 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "DELETE /v1/projects/practica5-1234/locations/europe-west1-b/clusters/cluster1?alt=json HTTP/1.1" 400 None
+2024-10-29 16:34:55,652 DEBUG    root            Chosen display Format:list[title="Some requests did not succeed:"]
+2024-10-29 16:34:55,652 DEBUG    root            (gcloud.container.clusters.delete) Some requests did not succeed:
+ - ResponseError: code=400, message=Operation operation-1730215833683-cab78c4b-43cb-4c92-819f-46f68b86bcdc is currently creating cluster cluster1. Please wait and try again once it is done.
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/delete.py", line 150, in Run
+    raise util.Error(
+googlecloudsdk.api_lib.container.util.Error: Some requests did not succeed:
+ - ResponseError: code=400, message=Operation operation-1730215833683-cab78c4b-43cb-4c92-819f-46f68b86bcdc is currently creating cluster cluster1. Please wait and try again once it is done.
+
+2024-10-29 16:34:55,653 ERROR    root            (gcloud.container.clusters.delete) Some requests did not succeed:
+ - ResponseError: code=400, message=Operation operation-1730215833683-cab78c4b-43cb-4c92-819f-46f68b86bcdc is currently creating cluster cluster1. Please wait and try again once it is done.
+

@@ -1,0 +1,72 @@
+2024-10-29 16:22:33,505 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 16:22:33,508 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'create']
+2024-10-29 16:22:33,602 DEBUG    root            Running [gcloud.container.clusters.create] with arguments: [--disk-size: "37580963840", --enable-ip-alias: "True", --enable-master-authorized-networks: "True", --master-authorized-networks: "['81.43.104.145/32']", NAME: "cluster1"]
+2024-10-29 16:22:33,605 WARNING  root            Accessing a Kubernetes Engine cluster requires the kubernetes commandline
+client [kubectl]. To install, run
+  $ gcloud components install kubectl
+
+2024-10-29 16:22:33,606 INFO     ___FILE_ONLY___ Note: The Kubelet readonly port (10255) is now deprecated. Please update your workloads to use the recommended alternatives. See https://cloud.google.com/kubernetes-engine/docs/how-to/disable-kubelet-readonly-port for ways to check usage and for migration instructions.
+
+2024-10-29 16:22:33,608 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:22:33,999 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "POST /v1/projects/practica4-1234/locations/europe-west1-b/clusters?alt=json HTTP/1.1" 403 None
+2024-10-29 16:22:34,003 DEBUG    root            (gcloud.container.clusters.create) ResponseError: code=403, message=Kubernetes Engine API has not been used in project practica4-1234 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=practica4-1234 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property.
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/create.py", line 1260, in Run
+    operation_ref = adapter.CreateCluster(cluster_ref, options)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 3390, in CreateCluster
+    operation = self.client.projects_locations_clusters.Create(req)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/container/v1/container_v1_client.py", line 547, in Create
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpForbiddenError: HttpError accessing <https://container.googleapis.com/v1/projects/practica4-1234/locations/europe-west1-b/clusters?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Tue, 29 Oct 2024 15:22:34 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': 403}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Kubernetes Engine API has not been used in project practica4-1234 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=practica4-1234 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developers console API activation",
+            "url": "https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=practica4-1234"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "SERVICE_DISABLED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "container.googleapis.com",
+          "consumer": "projects/practica4-1234"
+        }
+      }
+    ]
+  }
+}
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/create.py", line 1271, in Run
+    raise exceptions.HttpException(error, util.HTTP_ERROR_FORMAT)
+googlecloudsdk.calliope.exceptions.HttpException: ResponseError: code=403, message=Kubernetes Engine API has not been used in project practica4-1234 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=practica4-1234 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property.
+2024-10-29 16:22:34,019 ERROR    root            (gcloud.container.clusters.create) ResponseError: code=403, message=Kubernetes Engine API has not been used in project practica4-1234 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=practica4-1234 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property.

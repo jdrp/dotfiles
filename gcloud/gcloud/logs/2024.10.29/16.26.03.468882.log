@@ -1,0 +1,17 @@
+2024-10-29 16:26:03,469 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:26:03,471 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2024-10-29 16:26:03,472 DEBUG    root            Running [gcloud.config.list] with arguments: []
+2024-10-29 16:26:03,473 DEBUG    root            Chosen display Format:config
+2024-10-29 16:26:03,473 INFO     root            Display format: "config"
+2024-10-29 16:26:03,480 INFO     ___FILE_ONLY___ [compute]
+region = europe-west1
+zone = europe-west1-b
+[core]
+account = jdiazderabago@gmail.com
+disable_usage_reporting = True
+project = practica5-1234
+
+2024-10-29 16:26:03,480 INFO     ___FILE_ONLY___ 
+Your active configuration is: [default]
+
+2024-10-29 16:26:03,481 DEBUG    root            SDK update checks are disabled.

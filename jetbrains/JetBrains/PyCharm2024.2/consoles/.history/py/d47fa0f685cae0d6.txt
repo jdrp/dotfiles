@@ -1,0 +1,5 @@
+import torch
+-. . -..- - / . -. - .-. -.--
+pip install torch
+-. . -..- - / . -. - .-. -.--
+python -m pip install torch

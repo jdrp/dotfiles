@@ -1,0 +1,41 @@
+2024-11-04 15:45:02,766 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-11-04 15:45:02,767 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'update']
+2024-11-04 15:45:02,807 DEBUG    root            Running [gcloud.container.clusters.update] with arguments: [--enable-autoscaling: "True", --max-nodes: "5", --min-nodes: "1", NAME: "scaling-demo"]
+2024-11-04 15:45:02,808 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-11-04 15:45:03,008 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 403 None
+2024-11-04 15:45:03,009 WARNING  root            Problem loading details of cluster to update:
+
+ResponseError: code=403, message=Kubernetes Engine API has not been used in project proyectotest-1 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/container.googleapis.com/overview?project=proyectotest-1 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property.
+
+You can still attempt updates to the cluster.
+
+2024-11-04 15:45:03,010 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-11-04 15:45:03,455 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "PUT /v1/projects/proyectotest-1/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-11-04 15:45:03,457 INFO     ___FILE_ONLY___ Updating scaling-demo...
+2024-11-04 15:45:03,458 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-11-04 15:45:03,756 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/europe-west1-b/operations/operation-1730731503274-033bb5a2-3a5d-495e-97be-c04bed7020f0?alt=json HTTP/1.1" 200 None
+2024-11-04 15:45:08,759 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-11-04 15:45:08,980 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/europe-west1-b/operations/operation-1730731503274-033bb5a2-3a5d-495e-97be-c04bed7020f0?alt=json HTTP/1.1" 200 None
+2024-11-04 15:45:08,981 INFO     root            Operation <Operation
+ clusterConditions: []
+ endTime: '2024-11-04T14:45:06.36353087Z'
+ name: 'operation-1730731503274-033bb5a2-3a5d-495e-97be-c04bed7020f0'
+ nodepoolConditions: []
+ operationType: OperationTypeValueValuesEnum(UPDATE_CLUSTER, 6)
+ progress: <OperationProgress
+ metrics: [<Metric
+ intValue: 3
+ name: 'NODES_TOTAL'>]
+ stages: []>
+ selfLink: 'https://container.googleapis.com/v1/projects/166772230865/zones/europe-west1-b/operations/operation-1730731503274-033bb5a2-3a5d-495e-97be-c04bed7020f0'
+ startTime: '2024-11-04T14:45:03.274533047Z'
+ status: StatusValueValuesEnum(DONE, 3)
+ targetLink: 'https://container.googleapis.com/v1/projects/166772230865/zones/europe-west1-b/clusters/scaling-demo/nodePools/default-pool'
+ zone: 'europe-west1-b'> finished after 5.52 seconds
+2024-11-04 15:45:09,062 INFO     ___FILE_ONLY___ Updated [https://container.googleapis.com/v1/projects/proyectotest-1/zones/europe-west1-b/clusters/scaling-demo].
+
+2024-11-04 15:45:09,062 INFO     ___FILE_ONLY___ To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/europe-west1-b/scaling-demo?project=proyectotest-1
+
+2024-11-04 15:45:09,062 DEBUG    root            Chosen display Format:none
+2024-11-04 15:45:09,063 INFO     root            Display format: "none"
+2024-11-04 15:45:09,063 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,178 @@
+2024-10-30 12:43:25,759 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-10-30 12:43:26,041 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-10-30 12:43:26,042 DEBUG    root            Running [gcloud.app.deploy] with arguments: [--image-url: "gcr.io/practica5-1234/supermario"]
+2024-10-30 12:43:26,054 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-10-30 12:43:26,066 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x7079c5463890>]
+2024-10-30 12:43:26,394 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-10-30 12:43:26,404 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2024-10-30 12:43:26,860 DEBUG    root            No app found:
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 818, in _PossiblyCreateApp
+    return api_client.GetApplication()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/appengine_api_client.py", line 77, in GetApplication
+    return self.client.apps.Get(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/appengine/v1/appengine_v1_client.py", line 1217, in Get
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpNotFoundError: HttpError accessing <https://appengine.googleapis.com/v1/apps/practica5-1234?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'date': 'Wed, 30 Oct 2024 11:43:26 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': '404', 'content-length': '375', '-content-encoding': 'gzip'}>, content <{
+  "error": {
+    "code": 404,
+    "message": "Resource 'projects/practica5-1234/locations/global/applications/practica5-1234' was not found",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ResourceInfo",
+        "resourceName": "projects/practica5-1234/locations/global/applications/practica5-1234"
+      }
+    ]
+  }
+}
+>
+2024-10-30 12:43:26,862 INFO     ___FILE_ONLY___ You are creating an app for project [practica5-1234].
+
+2024-10-30 12:43:26,862 WARNING  root            Creating an App Engine application for a project is irreversible and the region
+cannot be changed. More information about regions is at
+<https://cloud.google.com/appengine/docs/locations>.
+
+2024-10-30 12:43:34,072 DEBUG    root            Received operation: [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5]
+2024-10-30 12:43:34,073 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] not complete. Waiting to retry.
+2024-10-30 12:43:34,074 INFO     ___FILE_ONLY___ Creating App Engine application in project [practica5-1234] and region [europe-west]....
+2024-10-30 12:43:35,300 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] not complete. Waiting to retry.
+2024-10-30 12:43:41,137 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] not complete. Waiting to retry.
+2024-10-30 12:43:46,333 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] not complete. Waiting to retry.
+2024-10-30 12:43:52,293 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] not complete. Waiting to retry.
+2024-10-30 12:43:57,627 DEBUG    root            Operation [apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-10-30T11:43:53.723980864Z",
+        "insertTime": "2024-10-30T11:43:32.741333710Z",
+        "method": "google.appengine.v1.Applications.CreateApplication",
+        "target": "apps/practica5-1234"
+    },
+    "name": "apps/practica5-1234/operations/operation-1730288612741-625b0361f109e-f76fad22-fea82aa5",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Application",
+        "authDomain": "gmail.com",
+        "codeBucket": "staging.practica5-1234.appspot.com",
+        "databaseType": "CLOUD_DATASTORE_COMPATIBILITY",
+        "defaultBucket": "practica5-1234.appspot.com",
+        "defaultHostname": "practica5-1234.ew.r.appspot.com",
+        "featureSettings": {
+            "splitHealthChecks": true,
+            "useContainerOptimizedOs": true
+        },
+        "gcrDomain": "eu.gcr.io",
+        "id": "practica5-1234",
+        "locationId": "europe-west",
+        "name": "apps/practica5-1234",
+        "serviceAccount": "practica5-1234@appspot.gserviceaccount.com",
+        "servingStatus": "SERVING"
+    }
+}
+2024-10-30 12:43:57,930 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2024-10-30 12:43:57,931 INFO     ___FILE_ONLY___ descriptor:                  [/mnt/shared/Documents/OneDrive/icai/4-1/arquitectura de sistemas de red/p7/app.yaml]
+source:                      [/mnt/shared/Documents/OneDrive/icai/4-1/arquitectura de sistemas de red/p7]
+target project:              [practica5-1234]
+target service:              [supermario-auto]
+target version:              [20241030t124357]
+target url:                  [https://supermario-auto-dot-practica5-1234.ew.r.appspot.com]
+target service account:      [practica5-1234@appspot.gserviceaccount.com]
+
+
+
+2024-10-30 12:44:06,345 DEBUG    root            No bucket specified, retrieving default bucket.
+2024-10-30 12:44:06,358 DEBUG    root            Using bucket [gs://staging.practica5-1234.appspot.com].
+2024-10-30 12:44:07,474 INFO     ___FILE_ONLY___ Enabling service [appengineflex.googleapis.com] on project [practica5-1234]...
+
+2024-10-30 12:44:17,293 INFO     ___FILE_ONLY___ Operation "operations/acf.p2-453953318241-d19c91f7-d2a1-45e1-b9cd-b99d7d773435" finished successfully.
+
+2024-10-30 12:44:17,388 INFO     ___FILE_ONLY___ Beginning deployment of service [supermario-auto]...
+
+2024-10-30 12:44:17,392 WARNING  root            Deployment of service [supermario-auto] will ignore the skip_files field in the configuration file, because the image has already been built.
+2024-10-30 12:44:17,394 DEBUG    root            Converted YAML to JSON: "{
+  "automaticScaling": {
+    "coolDownPeriod": "300s",
+    "cpuUtilization": {
+      "targetUtilization": 0.1
+    },
+    "maxConcurrentRequests": 10,
+    "maxTotalInstances": 5,
+    "minTotalInstances": 1
+  },
+  "betaSettings": {
+    "module_yaml_path": "app.yaml",
+    "vm_runtime": "custom"
+  },
+  "entrypoint": {
+    "shell": ""
+  },
+  "env": "flex",
+  "handlers": [
+    {
+      "script": {
+        "scriptPath": "PLACEHOLDER"
+      },
+      "urlRegex": ".*"
+    }
+  ],
+  "resources": {
+    "cpu": 2.0,
+    "diskGb": 10,
+    "memoryGb": 2.0
+  },
+  "runtime": "vm"
+}"
+2024-10-30 12:44:18,514 DEBUG    root            (gcloud.app.deploy) INVALID_ARGUMENT: The first service (module) you upload to a new application must be the 'default' service (module). Please upload a version of the 'default' service (module) before uploading a version for the 'supermario-auto' service (module). See the documentation for more information. Python: (https://developers.google.com/appengine/docs/python/modules/#Python_Uploading%%20modules) Java: (https://developers.google.com/appengine/docs/java/modules/#Java_Uploading%%20modules)
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/app/deploy.py", line 122, in Run
+    return deploy_util.RunDeploy(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 677, in RunDeploy
+    deployer.Deploy(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 471, in Deploy
+    self.api_client.DeployService(new_version.service, new_version.id,
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/appengine_api_client.py", line 205, in DeployService
+    operation = self._CreateVersion(service_name, version_id, service_config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/app/appengine_api_client.py", line 300, in _CreateVersion
+    return self.client.apps_services_versions.Create(create_request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/appengine/v1/appengine_v1_client.py", line 928, in Create
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpBadRequestError: HttpError accessing <https://appengine.googleapis.com/v1/apps/practica5-1234/services/supermario-auto/versions?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'date': 'Wed, 30 Oct 2024 11:44:18 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': '400', 'content-length': '553', '-content-encoding': 'gzip'}>, content <{
+  "error": {
+    "code": 400,
+    "message": "The first service (module) you upload to a new application must be the 'default' service (module). Please upload a version of the 'default' service (module) before uploading a version for the 'supermario-auto' service (module). See the documentation for more information. Python: (https://developers.google.com/appengine/docs/python/modules/#Python_Uploading%%20modules) Java: (https://developers.google.com/appengine/docs/java/modules/#Java_Uploading%%20modules)",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+>
+2024-10-30 12:44:18,527 ERROR    root            (gcloud.app.deploy) INVALID_ARGUMENT: The first service (module) you upload to a new application must be the 'default' service (module). Please upload a version of the 'default' service (module) before uploading a version for the 'supermario-auto' service (module). See the documentation for more information. Python: (https://developers.google.com/appengine/docs/python/modules/#Python_Uploading%%20modules) Java: (https://developers.google.com/appengine/docs/java/modules/#Java_Uploading%%20modules)

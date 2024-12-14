@@ -1,0 +1,850 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="llm_hallucinations" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2h10bfgle4y9r" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-484">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"utils.py","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/detection/bcv_sca.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="638">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="e#97#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"bcv_sca.py","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/prompts/detection/bcv_medical.prompt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"bcv_medical.prompt","foregroundColor":-2104859,"textAttributes":{"name":"a"}}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/logs/medquad_medical_cot_nemotron-mini.log">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"medquad_medical_cot_nemotron-mini.log","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/detection/statistics_roc.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="2508">
+              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"statistics_roc.py","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/run_tests.sh">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="352">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"run_tests.sh","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,68,10,17,110,111,100,101,115,47,99,111,110,115,111,108,101,46,115,118,103,18,25,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,115,104,101,108,108,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-88,-76,-117,-54,5,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/results/medquad_medical_cot_phi3.5.json">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="110">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"medquad_medical_cot_phi3.5.json","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-55,-15,-115,-58,-6,-1,-1,-1,-1,1,48,2]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/logs/medquad_medical_cot_phi3.5.log">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="7612">
+              <caret line="346" column="14" selection-start-line="346" selection-start-column="14" selection-end-line="346" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"medquad_medical_cot_phi3.5.log","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/data/truthfulqa_test_samples.json">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="139546">
+              <caret line="6343" column="26" selection-start-line="6343" selection-start-column="8" selection-end-line="6343" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"truthfulqa_test_samples.json","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,106,115,111,110,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-55,-15,-115,-58,-6,-1,-1,-1,-1,1,48,2]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="594">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"requirements.txt","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Shell Script": {
+      "usageCount": 26,
+      "lastUsed": 1730731625892
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1729544497877
+    },
+    "Python": {
+      "usageCount": 104,
+      "lastUsed": 1730731626015
+    },
+    "textmate": {
+      "usageCount": 21,
+      "lastUsed": 1730731627349
+    },
+    "JSON": {
+      "usageCount": 30,
+      "lastUsed": 1730731626028
+    },
+    "Image": {
+      "usageCount": 40,
+      "lastUsed": 1730098488794
+    },
+    "Requirements.txt": {
+      "usageCount": 15,
+      "lastUsed": 1730731625828
+    },
+    "Terminal Prompt": {
+      "usageCount": 8,
+      "lastUsed": 1730731626012
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>detect_context_block_q_medical_cot</find>
+      <find>detect_context_block_q_agnostic_cot</find>
+      <find>detect_context_block_q_medical_nocot</find>
+      <find>detect_context_block_q_agnostic_nocot</find>
+      <find>detect_samples_sentences_noq_agnostic_cot</find>
+      <find>detect_context_sentences_q_agnostic_cot</find>
+      <find>detect_context_sentences_q_medical_cot</find>
+      <find>args.model</find>
+      <find>available_models</find>
+      <find>legend_title</find>
+      <find>filter</find>
+      <find>bcv</find>
+      <find>NaN</find>
+      <find>I have no comment</find>
+      <find>&quot;answer&quot;: &quot; I have</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>bcvcot_medical</replace>
+      <replace>bcvcot_agnostic</replace>
+      <replace>bcv_medical</replace>
+      <replace>bcv_agnostic</replace>
+      <replace>issccot_agnostic</replace>
+      <replace>sca_agnostic</replace>
+      <replace>sca_medical</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/detection/confusion_matrix.py" />
+      <option value="$PROJECT_DIR$/detection/prediction_histogram.py" />
+      <option value="$PROJECT_DIR$/detection/bcv_sca.py" />
+      <option value="$PROJECT_DIR$/detection/issc.py" />
+      <option value="$PROJECT_DIR$/results/truthful_qa_cot_gemma2.json" />
+      <option value="$PROJECT_DIR$/results/truthful_qa_cot_gemma.json" />
+      <option value="$PROJECT_DIR$/detection/statistics_roc.py" />
+      <option value="$PROJECT_DIR$/run_tests.sh" />
+      <option value="$PROJECT_DIR$/utils.py" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JSON">
+      <summary usageCount="30" lastUsage="1730731626028" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1729544497878" />
+    </language>
+    <language id="Python">
+      <summary usageCount="104" lastUsage="1730731626015" />
+    </language>
+    <language id="Requirements">
+      <summary usageCount="15" lastUsage="1730731625829" />
+    </language>
+    <language id="Shell Script">
+      <summary usageCount="26" lastUsage="1730731625892" />
+    </language>
+    <language id="Terminal Prompt">
+      <summary usageCount="8" lastUsage="1730731626012" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="21" lastUsage="1730731627349" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="llm_hallucinations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="llm_hallucinations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="llm_hallucinations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts/detection}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="llm_hallucinations" />
+            <item name="llm_hallucinations" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="llm_hallucinations" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.venv" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".venv" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/.venv}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/confusion" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="confusion" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/confusion}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/data" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="data" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/data}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/detection" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="detection" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/detection}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/generation" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="generation" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/generation}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/histogram" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="histogram" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/histogram}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/logs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="logs" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/logs}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/prompts" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="prompts" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/prompts/detection" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="detection" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts/detection}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/bcv_agnostic.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="bcv_agnostic.prompt" />
+                    <item name="bcv_agnostic.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/bcv_medical.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="bcv_medical.prompt" />
+                    <item name="bcv_medical.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/bcvcot_agnostic.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="bcvcot_agnostic.prompt" />
+                    <item name="bcvcot_agnostic.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/bcvcot_medical.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="bcvcot_medical.prompt" />
+                    <item name="bcvcot_medical.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/issc_agnostic.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="issc_agnostic.prompt" />
+                    <item name="issc_agnostic.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/issccot_agnostic.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="issccot_agnostic.prompt" />
+                    <item name="issccot_agnostic.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/sca_agnostic.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="sca_agnostic.prompt" />
+                    <item name="sca_agnostic.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/prompts/detection/sca_medical.prompt" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="sca_medical.prompt" />
+                    <item name="sca_medical.prompt" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/prompts/generation" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="generation" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/prompts/generation}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/results" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="results" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/results}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/results_win" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="results_win" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/results_win}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/roc" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="roc" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/roc}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/wandb" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="wandb" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/icai/tfg/llm_hallucinations/wandb}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/available_models.txt" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="available_models.txt" />
+                <item name="available_models.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/calculate_test_time.py" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="calculate_test_time.py" />
+                <item name="calculate_test_time.py" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/requirements.txt" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="requirements.txt" />
+                <item name="requirements.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/run_tests.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="run_tests.bat" />
+                <item name="run_tests.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/run_tests.sh" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="run_tests.sh" />
+                <item name="run_tests.sh" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/utils.py" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="utils.py" />
+                <item name="utils.py" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="/mnt/shared/Documents/OneDrive/icai/tfg/llm_hallucinations">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+      <TerminalTabState tabName="run_tests.sh" currentWorkingDirectory="$PROJECT_DIR$" />
+      <TerminalTabState tabName="run_tests.sh (2)" currentWorkingDirectory="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55433000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21640626" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="VcsChanges" order="2" weight="0.23776042" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="HfCacheToolWindow" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.31386515" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.31386515" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.31386515" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.31386515" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.34520417" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3300095" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="SciView" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <unified_weights bottom="0.31386515" left="0.21640626" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Python Console</value>
+      <value>Python Packages</value>
+      <value>Version Control</value>
+      <value>VcsChanges</value>
+      <value>Find</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="615" y="298" key="FileChooserDialogImpl" timestamp="1729596459912">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="615" y="298" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1729596459912" />
+    <state width="1838" height="320" key="GridCell.Tab.0.bottom" timestamp="1729582913163">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="320" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1729582913163" />
+    <state width="1838" height="320" key="GridCell.Tab.0.center" timestamp="1729582913163">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="320" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1729582913163" />
+    <state width="1838" height="320" key="GridCell.Tab.0.left" timestamp="1729582913163">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="320" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1729582913163" />
+    <state width="1838" height="320" key="GridCell.Tab.0.right" timestamp="1729582913163">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="320" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1729582913163" />
+    <state x="1419" y="900" width="480" height="139" key="ProcessPopupWindow" timestamp="1729545163403">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1419" y="900" width="480" height="139" key="ProcessPopupWindow/0.27.1920.1053@0.27.1920.1053" timestamp="1729545163403" />
+    <state x="555" y="216" width="800" height="688" key="PythonInterpreterConfigurable.size" timestamp="1729836595294">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="216" width="800" height="688" key="PythonInterpreterConfigurable.size/0.27.1920.1053@0.27.1920.1053" timestamp="1729836595294" />
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1729928170525">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1729928170525" />
+    <state x="623" y="248" width="795" height="713" key="search.everywhere.popup" timestamp="1730099231252">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="248" width="795" height="713" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1730099231252" />
+    <state x="685" y="434" width="540" height="246" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1729927959708">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="685" y="434" width="540" height="246" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1729927959708" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file:///mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg/llm_hallucinations/detection/issc.py" />
+    <entry file="file:///mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg/llm_hallucinations/detection/bcv_sca.py" />
+    <entry file="file://$PROJECT_DIR$/logs/medquad_medical_cot_llama3.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/ollama/_client.py" />
+    <entry file="file://$PROJECT_DIR$/detection/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/ollama/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/data/medquad_regen_test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/rich/progress.py" />
+    <entry file="file://$PROJECT_DIR$/histogram/medquad_medical_cot_llama3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/medquad_medical_cot_llama3.json" />
+    <entry file="file://$PROJECT_DIR$/detection/confusion_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/win/halueval_bcv_llama3-gradient.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/win/ehrtest_bcvcot_agnostic_llama3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/wandb/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py" />
+    <entry file="file://$PROJECT_DIR$/results/halueval_agnostic_cot_llama2.json" />
+    <entry file="file://$PROJECT_DIR$/histogram/medquad_agnostic_nemotron-mini.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/medical_report_test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///mnt/shared/Documents/OneDrive/icai/tfg/llm_hallucinations/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///mnt/shared/Documents/OneDrive/icai/tfg/llm_hallucinations/detection/bcv_sca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/medquad_medical_cot_nemotron-mini.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram/win/halueval_bcv_llama3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/prediction_histogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/issc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/truthful_qa_cot_gemma2.json" />
+    <entry file="file://$PROJECT_DIR$/results/truthful_qa_nocot_gemma2.json" />
+    <entry file="file://$PROJECT_DIR$/results/truthful_qa_cot_gemma.json" />
+    <entry file="file://$PROJECT_DIR$/results/truthful_qa_cot_llama2.json" />
+    <entry file="file://$PROJECT_DIR$/prompts/detection/bcvcot_medical.prompt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tests.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/bcv_sca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#97#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prompts/detection/bcv_medical.prompt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/statistics_roc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/truthfulqa_test_samples.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139546">
+          <caret line="6343" column="26" selection-start-line="6343" selection-start-column="8" selection-end-line="6343" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/medquad_medical_cot_phi3.5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/medquad_medical_cot_phi3.5.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7612">
+          <caret line="346" column="14" selection-start-line="346" selection-start-column="14" selection-end-line="346" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/medquad_medical_cot_nemotron-mini.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

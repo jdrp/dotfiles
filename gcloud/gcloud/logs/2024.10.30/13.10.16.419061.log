@@ -1,0 +1,48 @@
+2024-10-30 13:10:16,419 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2024-10-30 13:10:16,580 DEBUG    root            Loaded Command Group: ['gcloud', 'functions', 'deploy']
+2024-10-30 13:10:16,628 DEBUG    root            Running [gcloud.functions.deploy] with arguments: [--allow-unauthenticated: "True", --entry-point: "get_urandom", --memory: "128Mi", --region: "europe-west1", --runtime: "python312", --timeout: "60", --trigger-http: "True", NAME: "urandom-generator"]
+2024-10-30 13:10:16,637 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:16,774 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 403 None
+2024-10-30 13:10:19,627 INFO     ___FILE_ONLY___ Enabling service [cloudfunctions.googleapis.com] on project [practica5-1234]...
+
+2024-10-30 13:10:19,639 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:10:21,000 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/practica5-1234/services/cloudfunctions.googleapis.com:enable?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:21,007 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:10:21,922 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-4cf5527e-c01b-4f61-9414-ba594deaf4cb?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:24,244 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:10:24,995 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-4cf5527e-c01b-4f61-9414-ba594deaf4cb?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:25,003 INFO     ___FILE_ONLY___ Operation "operations/acf.p2-453953318241-4cf5527e-c01b-4f61-9414-ba594deaf4cb" finished successfully.
+
+2024-10-30 13:10:25,003 DEBUG    root            Request returned no response, retrying
+2024-10-30 13:10:25,003 DEBUG    root            Retrying request to url https://cloudfunctions.googleapis.com/v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json after exception Retry
+2024-10-30 13:10:26,574 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:26,728 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 404 None
+2024-10-30 13:10:26,732 INFO     ___FILE_ONLY___ As of this Cloud SDK release, new functions will be deployed as 2nd gen  functions by default. This is equivalent to currently deploying new  with the --gen2 flag. Existing 1st gen functions will not be impacted and will continue to deploy as 1st gen functions.
+You can disable this behavior by explicitly specifying the --no-gen2 flag or by setting the functions/gen2 config property to 'off'.
+To learn more about the differences between 1st gen and 2nd gen functions, visit:
+https://cloud.google.com/functions/docs/concepts/version-comparison
+
+2024-10-30 13:10:26,738 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:26,837 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 403 None
+2024-10-30 13:10:36,452 INFO     ___FILE_ONLY___ Enabling service [cloudfunctions.googleapis.com] on project [practica5-1234]...
+
+2024-10-30 13:10:36,459 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:10:37,295 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/practica5-1234/services/cloudfunctions.googleapis.com:enable?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:37,302 DEBUG    root            Request returned no response, retrying
+2024-10-30 13:10:37,302 DEBUG    root            Retrying request to url https://cloudfunctions.googleapis.com/v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json after exception Retry
+2024-10-30 13:10:39,029 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:39,339 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 404 None
+2024-10-30 13:10:39,343 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:40,424 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/runtimes?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:40,436 INFO     root            Not using ignore file.
+2024-10-30 13:10:40,439 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:10:42,173 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "POST /v2/projects/practica5-1234/locations/europe-west1/functions:generateUploadUrl?alt=json HTTP/1.1" 200 None
+2024-10-30 13:10:42,180 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-10-30 13:10:42,575 DEBUG    urllib3.connectionpool https://storage.googleapis.com:443 "PUT /gcf-v2-uploads-453953318241-europe-west1/953c97e0-a7df-440f-82b8-a380fc784287.zip?GoogleAccessId=service-453953318241%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1730292042&Signature=cPJZa5bn%2BrCZ%2FwdtYWkjhSNnMK2%2FJYnj%2FRWkhYbyhrUhqQ%2Brnn4ZKO7WdwVDFC05NVHp4FpTOXW4eOtuXXN37zLkboAPAtPcrclrBuUZv9ZuZALrtqdiyZ8owejU5TFn9%2BYe2futzr3MxbYF12t%2FUuil1pvoDisTT%2FKYWAzNKo5JLmKTy6MX3cMuR85gjPuBoNJ2QASB6qH1caJKlusmmGSvLeo8zFw2ngZOcqURU%2BanvVyXUWHxjd7yb2LpPa6xyr4pKoTYug%2FgvX4vY3K4MLCPIU%2Fd1gYQwaJCS5sfx68FLVa5PdShaSnD2ykw6QjfgzI1Pb4PDlbd0RDlCCVUIg%3D%3D HTTP/1.1" 200 0
+2024-10-30 13:10:42,583 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:10:43,496 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/practica5-1234/services/run.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:00,168 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

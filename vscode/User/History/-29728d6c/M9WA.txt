@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.22)
+project(raytracer)
+
+set(CMAKE_CXX_STANDARD 20)
+
+# Ensure compile_commands.json is generated
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+add_executable(raytracer src/main.cpp)
+
+include_directories(rtutils/inc)

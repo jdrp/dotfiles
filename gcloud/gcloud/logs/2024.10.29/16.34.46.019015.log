@@ -1,0 +1,22 @@
+2024-10-29 16:34:46,020 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 16:34:46,021 DEBUG    root            Running [gcloud.container.clusters] with arguments: [-h: "None"]
+2024-10-29 16:34:46,031 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2024-10-29 16:34:46,032 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'check_autopilot_compatibility']
+2024-10-29 16:34:46,033 DEBUG    root            No implementation for release track [GA] for element: [/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/config]
+2024-10-29 16:34:46,036 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'create_auto']
+2024-10-29 16:34:46,047 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'delete']
+2024-10-29 16:34:46,048 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_upgrade_info']
+2024-10-29 16:34:46,049 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'list']
+2024-10-29 16:34:46,050 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'upgrade']
+2024-10-29 16:34:46,050 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'describe']
+2024-10-29 16:34:46,051 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'resize']
+2024-10-29 16:34:46,052 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'update']
+2024-10-29 16:34:46,057 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'create']
+2024-10-29 16:34:46,063 INFO     ___FILE_ONLY___ Usage: gcloud container clusters [optional flags] <command>
+  command may be         check-autopilot-compatibility | create | create-auto |
+                         delete | describe | get-credentials | list | resize |
+                         update | upgrade
+
+For detailed information on this command and its flags, run:
+  gcloud container clusters --help
+

@@ -1,0 +1,1060 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/main.cpp" />
+              <entry key="line" value="357" />
+            </attributes>
+            <option name="description" value="glBindFramebuffer(GL_FRAMEBUFFER, 0);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="learnopengl" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="1t3394uyz6i6y" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/glutils/glmodel.cpp">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <folding>
+                <element signature="e#0#8424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"glmodel.cpp","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,93,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,22,99,111,109,46,105,110,116,101,108,108,105,106,46,99,105,100,114,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="726">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"CMakeLists.txt","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,68,10,15,105,99,111,110,115,47,67,77,97,107,101,46,115,118,103,18,21,105,99,111,110,115,47,101,120,112,117,105,47,67,77,97,107,101,46,115,118,103,26,18,99,111,109,46,105,110,116,101,108,108,105,106,46,99,108,105,111,110,40,-99,-66,-40,-99,2,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="198">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"main.cpp","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,93,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,22,99,111,109,46,105,110,116,101,108,108,105,106,46,99,105,100,114,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/shaders/skyboxShader.vsh">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="264">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"skyboxShader.vsh","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,114,10,112,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,106,97,118,105,101,114,100,114,112,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,67,76,105,111,110,50,48,50,52,46,51,47,71,76,83,76,52,73,100,101,97,47,108,105,98,47,71,76,83,76,52,73,100,101,97,45,49,46,50,52,46,106,97,114,33,47,105,99,111,110,115,47,71,76,83,76,109,105,110,105,46,112,110,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/glutils/glmesh.cpp">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="132">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"glmesh.cpp","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,93,10,23,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,18,29,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,99,112,112,46,115,118,103,26,22,99,111,109,46,105,110,116,101,108,108,105,106,46,99,105,100,114,46,98,97,115,101,40,-21,-119,-10,-57,-3,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="mock:///What's New in CLion">
+          <provider editor-type-id="html-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"What's New in CLion","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,67,10,15,110,111,100,101,115,47,112,112,87,101,98,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,112,112,87,101,98,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-101,-13,-59,-7,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="mock:///What's New in CLion">
+          <provider editor-type-id="html-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"What's New in CLion","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,67,10,15,110,111,100,101,115,47,112,112,87,101,98,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,112,112,87,101,98,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-11,-101,-13,-59,-7,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/include/glutils/glmesh.h">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="198">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"glmesh.h","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,89,10,21,105,99,111,110,115,47,102,105,108,101,84,121,112,101,115,47,104,46,115,118,103,18,27,105,99,111,110,115,47,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,104,46,115,118,103,26,22,99,111,109,46,105,110,116,101,108,108,105,106,46,99,105,100,114,46,98,97,115,101,40,-48,-45,-18,-83,-7,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "C++ Header": {
+      "usageCount": 204,
+      "lastUsed": 1730301820471
+    },
+    "C++": {
+      "usageCount": 307,
+      "lastUsed": 1730301820585
+    },
+    "CMakeLists.txt": {
+      "usageCount": 28,
+      "lastUsed": 1733577049569
+    },
+    "AUTO_DETECTED": {
+      "usageCount": 1,
+      "lastUsed": 1721583622654
+    },
+    "textmate": {
+      "usageCount": 22,
+      "lastUsed": 1730134514103
+    },
+    "Image": {
+      "usageCount": 13,
+      "lastUsed": 1723979868456
+    },
+    "PLAIN_TEXT": {
+      "usageCount": 18,
+      "lastUsed": 1726681388915
+    },
+    "GLSL shader": {
+      "usageCount": 175,
+      "lastUsed": 1733577049559
+    },
+    "WebPreview": {
+      "usageCount": 3,
+      "lastUsed": 1733577051337
+    },
+    "Python": {
+      "usageCount": 1,
+      "lastUsed": 1724070617279
+    },
+    "Markdown": {
+      "usageCount": 6,
+      "lastUsed": 1730134170061
+    },
+    "EditorConfig": {
+      "usageCount": 3,
+      "lastUsed": 1730134977852
+    },
+    "CMakeCache.txt": {
+      "usageCount": 3,
+      "lastUsed": 1730134977831
+    },
+    "GitIgnore file": {
+      "usageCount": 3,
+      "lastUsed": 1730134977804
+    },
+    "DIFF": {
+      "usageCount": 1,
+      "lastUsed": 1730135395796
+    },
+    "C/C++ Header": {
+      "usageCount": 1,
+      "lastUsed": 1733577049578
+    },
+    "C/C++": {
+      "usageCount": 3,
+      "lastUsed": 1733577049682
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gl_lines</find>
+      <find>NULL</find>
+      <find>uniform</find>
+      <find>camera</find>
+      <find>lightColor</find>
+      <find>LightPos</find>
+      <find>objectColor</find>
+      <find>ambient</find>
+      <find>glUniform3f(glGetUniformLocation(lightingShader.Program,</find>
+      <find>spotLight</find>
+      <find>glUniform1f(glGetUniformLocation(lightingShader.Program,</find>
+      <find>resize</find>
+      <find>glVie</find>
+      <find>init</find>
+      <find>Init</find>
+      <find>Want</find>
+      <find>&quot;pointLights[2]</find>
+      <find>, &quot;%.2f&quot;</find>
+      <find>, &quot;%.3f&quot;</find>
+      <find>diffuse</find>
+      <find>material.diffuse</find>
+      <find>time</find>
+      <find>DEPTH</find>
+      <find>glClear</find>
+      <find>models/</find>
+      <find>Mesh</find>
+      <find>setFloat</find>
+      <find>material</find>
+      <find>shininess</find>
+      <find>shader</find>
+      <find>wireframe</find>
+      <find>static_cast&lt;GLint&gt;(</find>
+      <find>0xFF</find>
+      <find>vec3</find>
+      <find>100</find>
+      <find>texture</find>
+      <find>loadMaterial</find>
+      <find>Drawing 4 vertices</find>
+      <find>SCR_</find>
+      <find>glGenerateMi</find>
+      <find>skyboxVAO</find>
+      <find>skyboxVBO</find>
+      <find>GL_LESS</find>
+      <find>#version 330 core</find>
+      <find>OneDrive</find>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace>nullptr</replace>
+      <replace>objectShader.setVec3(</replace>
+      <replace>spotLights[0]</replace>
+      <replace>objectShader.setFloat(</replace>
+      <replace>object + &quot;</replace>
+      <replace>texture_diffuse0</replace>
+      <replace>material.texture_diffuse0</replace>
+      <replace>uint(0xFF)</replace>
+      <replace>uint(0xFF</replace>
+      <replace>VAO</replace>
+      <replace>VBO</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory"><![CDATA[{}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="C++">
+      <summary usageCount="515" lastUsage="1733577049682" />
+    </language>
+    <language id="CMake">
+      <summary usageCount="28" lastUsage="1733577049569" />
+    </language>
+    <language id="CMakeCache">
+      <summary usageCount="3" lastUsage="1730134977831" />
+    </language>
+    <language id="EditorConfig">
+      <summary usageCount="3" lastUsage="1730134977852" />
+    </language>
+    <language id="GLSL">
+      <summary usageCount="175" lastUsage="1733577049561" />
+    </language>
+    <language id="GitIgnore">
+      <summary usageCount="3" lastUsage="1730134977804" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="6" lastUsage="1730134170061" />
+    </language>
+    <language id="Python">
+      <summary usageCount="1" lastUsage="1724070617279" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="18" lastUsage="1726681388915" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="22" lastUsage="1730134514103" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="template" />
+            <item name="template" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="1.5imgui" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/cmake-build-debug" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="cmake-build-debug" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/cmake-build-debug}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/glutils" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="glutils" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/glutils}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/imgui" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="imgui" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/imgui}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/imguiutils" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="imguiutils" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/imguiutils}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/include" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="include" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/include}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/libs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="libs" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/libs}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/models" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/backpack" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="backpack" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/backpack}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/car" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="car" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/car}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/grass" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="grass" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/grass}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/human" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="human" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/human}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/ironman" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="ironman" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/ironman}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/models/window" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="window" />
+                  <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/models/window}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/shaders" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="shaders" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/shaders}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/textures" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="textures" />
+                <item name="dir{file:///home/javierdrp/Documents/OneDrive/learncpp/learnopengl/1.5imgui/textures}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/CMakeLists.txt" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/CMake.svg" iconPlugin="com.intellij.clion" isLeaf="true" text="CMakeLists.txt" />
+                <item name="CMakeLists.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/glad.c" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/fileTypes/c.svg" iconPlugin="com.intellij.cidr.base" isLeaf="true" text="glad.c" />
+                <item name="glad.c" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/imgui.ini" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/debugger/threads.svg" iconPlugin="com.intellij" isLeaf="true" text="imgui.ini" />
+                <item name="imgui.ini" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/main.cpp" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.cidr.base" isLeaf="true" text="main.cpp" />
+                <item name="main.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/stb_image.cpp" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/fileTypes/cpp.svg" iconPlugin="com.intellij.cidr.base" isLeaf="true" text="stb_image.cpp" />
+                <item name="stb_image.cpp" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="CMake Application.ImGui" />
+      <element setting="CMake Application.assimp" />
+      <element setting="CMake Application.Lightning" />
+      <element setting="CMake Application.GettingStarted" />
+      <element setting="CMake Application.LearnOpenGL" />
+      <element setting="CMake Application.template" />
+      <element setting="CMake Application.learnopengl" />
+      <element setting="CMake Application.PROJECT_NAME" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="/mnt/shared/Documents/OneDrive/learncpp/learnopengl/1.5imgui">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="216820000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <option name="selectedScope" value="All Places" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Pull Requests" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30078125" />
+      <window_info id="Commit" order="1" weight="0.30078125" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.30078125" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.21320039" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3300095" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.21320039" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3300095" />
+      <window_info anchor="bottom" id="CMake" order="6" weight="0.3300095" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.3300095" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3300095" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3300095" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39268756" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.32994792" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Meson" order="5" />
+      <unified_weights bottom="0.3300095" left="0.30078125" right="0.32994792" />
+    </layoutV2>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18203124" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" visible="true" weight="0.3300095" />
+      <window_info anchor="bottom" id="CMake" order="6" weight="0.3300095" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3300095" />
+      <window_info anchor="bottom" id="Find" order="8" show_stripe_button="false" weight="0.3300095" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.32994792" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Meson" order="5" />
+      <unified_weights bottom="0.3300095" left="0.18203124" right="0.32994792" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Run</value>
+      <value>Messages</value>
+      <value>Project</value>
+      <value>CMake</value>
+      <value>TODO</value>
+      <value>Commit</value>
+      <value>Structure</value>
+      <value>Terminal</value>
+      <value>Version Control</value>
+      <value>Find</value>
+      <value>Debug</value>
+      <value>Problems View</value>
+      <value>Notifications</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1034" y="165" width="801" height="783" key="#C++" timestamp="1722426126159">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1034" y="165" width="801" height="783" key="#C++/0.27.1920.1053@0.27.1920.1053" timestamp="1722426126159" />
+    <state x="1130" y="327" width="600" height="468" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1722290822868">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1130" y="327" width="600" height="468" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1722290822868" />
+    <state width="1838" height="304" key="GridCell.Tab.0.bottom" timestamp="1730303348339">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="304" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1730303348339" />
+    <state width="1838" height="304" key="GridCell.Tab.0.center" timestamp="1730303348339">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="304" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1730303348339" />
+    <state width="1838" height="304" key="GridCell.Tab.0.left" timestamp="1730303348339">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="304" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1730303348339" />
+    <state width="1838" height="304" key="GridCell.Tab.0.right" timestamp="1730303348339">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="304" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1730303348339" />
+    <state width="1838" height="370" key="GridCell.Tab.1.bottom" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.1.center" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.1.left" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.1.right" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.2.bottom" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.2.center" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.2.left" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.2.right" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.3.bottom" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.3.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.3.center" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.3.center/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.3.left" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.3.left/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state width="1838" height="370" key="GridCell.Tab.3.right" timestamp="1724325616050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="370" key="GridCell.Tab.3.right/0.27.1920.1053@0.27.1920.1053" timestamp="1724325616050" />
+    <state x="555" y="213" width="810" height="687" key="REMOTE_DEVELOPMENT_CONNECTION" timestamp="1723641349705">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="213" width="810" height="687" key="REMOTE_DEVELOPMENT_CONNECTION/0.27.1920.1053@0.27.1920.1053" timestamp="1723641349705" />
+    <state x="138" y="187" width="992" height="737" key="SettingsEditor" timestamp="1730135298510">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="138" y="187" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1730135298510" />
+    <state width="640" height="279" key="ShowBookmarks" timestamp="1724430023401">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="640" height="279" key="ShowBookmarks/0.27.1920.1053@0.27.1920.1053" timestamp="1724430023401" />
+    <state x="555" y="272" width="800" height="569" key="Vcs.Push.Dialog.v2" timestamp="1730135583826">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="272" width="800" height="569" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1730135583826" />
+    <state x="693" y="403" width="541" height="503" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog" timestamp="1729678197831">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="403" width="541" height="503" key="com.jetbrains.cidr.cpp.cmake.actions.CMakeAddFileToProjectDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1729678197831" />
+    <state x="1044" y="358" width="876" height="703" key="dock-window-1" timestamp="1722290060855">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1044" y="358" width="876" height="703" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1722290060855" />
+    <state x="624" y="255" key="run.anything.popup" timestamp="1724351039934">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="255" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1724351039934" />
+    <state x="623" y="248" width="706" height="713" key="search.everywhere.popup" timestamp="1730134744146">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="248" width="706" height="713" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1730134744146" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>glBindTexture(GL_TEXTURE_2D, textureID);
+        glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+        stbi_image_free(data);
+    }
+    else
+    {
+        std::cout &lt;&lt; &quot;Texture failed to load at path: &quot; &lt;&lt; path &lt;&lt; std::endl;
+        stbi_image_free(data);
+    }
+
+    return textureID;
+}</expression-string>
+        <language-id>C++</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/backpack/diffuse.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/clion64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/port/PyAssimp/pyassimp/structs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="528" column="6" selection-start-line="528" selection-start-column="6" selection-end-line="528" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgui/imgui_widgets.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="9502" column="12" selection-start-line="9502" selection-start-column="12" selection-end-line="9502" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/11/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="388" column="10" selection-start-line="388" selection-start-column="10" selection-end-line="388" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgui/imgui_impl_opengl3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="431" column="14" selection-start-line="431" selection-start-column="14" selection-end-line="431" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/cube.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/imguiutils/imguilights.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-subbuild/build.ninja">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/gllight.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/glshader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/glshader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glm/ext/matrix_transform.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="198" column="42" selection-start-line="198" selection-start-column="42" selection-end-line="198" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/gltexture.cpp" />
+    <entry file="file://$PROJECT_DIR$/glutils/gltexture.h" />
+    <entry file="file://$PROJECT_DIR$/include/glutils/glutils.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/glmodel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/glcamera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glad/glad.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="4285" selection-start-line="4285" selection-end-line="4285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KHR/khrplatform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="283" column="70" selection-start-line="283" selection-start-column="70" selection-end-line="283" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/glutils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/glcamera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/diffuseShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/screenShader.vsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/skyboxShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lightSourceShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/outlineShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/singleColorShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/objectShader.vsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/glkernel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/objectShader.fsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/lightSourceShader.vsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/gltexture.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/Build-DESKTOP-SUEVJ2O.md" />
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/Build-JavierUbuntu.md" />
+    <entry file="file://$PROJECT_DIR$/glad.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1441">
+          <caret line="2148" column="56" selection-start-line="2148" selection-start-column="56" selection-end-line="2148" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/Build.md" />
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/.gitattributes" />
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/glutils/gltexture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12826">
+          <caret line="583" column="64" selection-start-line="583" selection-start-column="64" selection-end-line="583" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-src/.editorconfig">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="org.editorconfig.configmanagement.editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgui/imgui.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1708">
+          <caret line="375" column="10" selection-start-line="375" selection-start-column="10" selection-end-line="375" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/assimp-subbuild/assimp-populate-prefix/tmp/assimp-populate-gitupdate.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaders/skyboxShader.vsh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/glutils/glmesh.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/glmesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glutils/glmodel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#8424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

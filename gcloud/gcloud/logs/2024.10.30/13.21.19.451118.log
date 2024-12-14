@@ -1,0 +1,18 @@
+2024-10-30 13:21:19,451 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2024-10-30 13:21:19,464 DEBUG    root            Loaded Command Group: ['gcloud', 'services', 'enable']
+2024-10-30 13:21:19,466 DEBUG    root            Running [gcloud.services.enable] with arguments: [SERVICE:2: "['run.googleapis.com', 'containerregistry.googleapis.com']"]
+2024-10-30 13:21:19,479 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:21:21,552 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/proyectotest-1/services:batchEnable?alt=json HTTP/1.1" 200 None
+2024-10-30 13:21:21,561 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:21:22,575 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-166772230865-d754a1b3-96b1-46af-adc1-d76bce6e4501?alt=json HTTP/1.1" 200 None
+2024-10-30 13:21:25,464 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:21:26,467 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-166772230865-d754a1b3-96b1-46af-adc1-d76bce6e4501?alt=json HTTP/1.1" 200 None
+2024-10-30 13:21:29,211 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:21:31,095 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-166772230865-d754a1b3-96b1-46af-adc1-d76bce6e4501?alt=json HTTP/1.1" 200 None
+2024-10-30 13:21:33,798 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:21:34,609 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-166772230865-d754a1b3-96b1-46af-adc1-d76bce6e4501?alt=json HTTP/1.1" 200 None
+2024-10-30 13:21:34,614 INFO     ___FILE_ONLY___ Operation "operations/acf.p2-166772230865-d754a1b3-96b1-46af-adc1-d76bce6e4501" finished successfully.
+
+2024-10-30 13:21:34,614 DEBUG    root            Chosen display Format:none
+2024-10-30 13:21:34,615 INFO     root            Display format: "none"
+2024-10-30 13:21:34,615 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,442 @@
+2024-10-30 13:11:01,192 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2024-10-30 13:11:01,326 DEBUG    root            Loaded Command Group: ['gcloud', 'functions', 'deploy']
+2024-10-30 13:11:01,337 DEBUG    root            Running [gcloud.functions.deploy] with arguments: [--allow-unauthenticated: "True", --entry-point: "get_urandom", --memory: "128Mi", --region: "europe-west1", --runtime: "python312", --timeout: "60", --trigger-http: "True", NAME: "urandom-generator"]
+2024-10-30 13:11:01,346 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:01,474 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 404 None
+2024-10-30 13:11:01,479 INFO     ___FILE_ONLY___ As of this Cloud SDK release, new functions will be deployed as 2nd gen  functions by default. This is equivalent to currently deploying new  with the --gen2 flag. Existing 1st gen functions will not be impacted and will continue to deploy as 1st gen functions.
+You can disable this behavior by explicitly specifying the --no-gen2 flag or by setting the functions/gen2 config property to 'off'.
+To learn more about the differences between 1st gen and 2nd gen functions, visit:
+https://cloud.google.com/functions/docs/concepts/version-comparison
+
+2024-10-30 13:11:01,487 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:01,632 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 404 None
+2024-10-30 13:11:01,638 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:01,813 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/runtimes?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:01,827 INFO     root            Not using ignore file.
+2024-10-30 13:11:01,829 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:02,237 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "POST /v2/projects/practica5-1234/locations/europe-west1/functions:generateUploadUrl?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:02,245 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-10-30 13:11:02,646 DEBUG    urllib3.connectionpool https://storage.googleapis.com:443 "PUT /gcf-v2-uploads-453953318241-europe-west1/b458faa5-b48a-495b-a59c-3a505043c406.zip?GoogleAccessId=service-453953318241%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1730292062&Signature=G72DUOa2uvmWNyRnWt7BqrK3Eo%2FJ4w%2BiXqMQBzlr00DBE9hm4Beo36GPlvwtz6jsAgdF6e9ygfn4Wp9PZ4L99ywtRWXNkW0g3LHtWkRFkwfWu%2BquqlcRCJdbCgx39zZaZUCfrQWqwBKjJ7cU1hEpJMC7NSvPbNo%2FzkMlVRU4Vddn9fu%2FUriOmjO0jMvT%2BD1r8BjYlYWQsjr0SgMDRSyle9hEC%2FQbwFI2S43WZrI15CXzNzAZSxF5XmX9CpdieA5D10VscJwQr213OC8s27G2hYBloJ4kouxF7UoZJnYBPfMY47Azf%2BOipif9BF2lX2NcXJ7Wv4sdeof8CxzYyZn9fA%3D%3D HTTP/1.1" 200 0
+2024-10-30 13:11:02,661 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:03,670 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/practica5-1234/services/run.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:06,059 INFO     ___FILE_ONLY___ Enabling service [run.googleapis.com] on project [practica5-1234]...
+
+2024-10-30 13:11:06,066 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:07,357 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/practica5-1234/services/run.googleapis.com:enable?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:07,365 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:08,278 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-eb6de33e-3930-4c1d-b23d-380124dfa6af?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:10,857 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:12,170 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acf.p2-453953318241-eb6de33e-3930-4c1d-b23d-380124dfa6af?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:12,176 INFO     ___FILE_ONLY___ Operation "operations/acf.p2-453953318241-eb6de33e-3930-4c1d-b23d-380124dfa6af" finished successfully.
+
+2024-10-30 13:11:12,179 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:13,195 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/practica5-1234/services/cloudbuild.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:13,242 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:11:14,149 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/practica5-1234/services/artifactregistry.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:14,210 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudbuild.googleapis.com:443
+2024-10-30 13:11:14,380 DEBUG    urllib3.connectionpool https://cloudbuild.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1/defaultServiceAccount?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:14,393 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-30 13:11:15,242 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/practica5-1234?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:15,251 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-30 13:11:16,061 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "POST /v1/projects/practica5-1234:getIamPolicy?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:16,068 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:19,369 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "POST /v2/projects/practica5-1234/locations/europe-west1/functions?alt=json&functionId=urandom-generator HTTP/1.1" 200 None
+2024-10-30 13:11:19,375 INFO     ___FILE_ONLY___ Preparing function...
+2024-10-30 13:11:19,377 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:19,518 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:19,577 INFO     ___FILE_ONLY___ Deploying function...
+2024-10-30 13:11:19,581 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:19,695 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:21,078 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:21,220 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:23,023 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:23,288 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:24,323 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:24,450 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:25,788 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:26,134 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:27,454 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:28,306 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:30,008 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:30,170 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:32,013 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:32,146 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:33,616 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:33,737 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:34,820 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:35,232 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:36,619 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:36,750 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:38,046 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:38,553 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:39,784 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:40,294 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:41,697 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:41,831 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:43,503 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:43,635 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:45,454 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:45,592 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:46,948 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:47,086 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:48,833 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:48,991 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:50,902 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:51,025 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:52,578 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:52,707 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:53,963 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:54,344 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:55,801 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:56,267 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:57,892 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:11:58,217 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:11:59,527 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:04,410 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:05,538 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:05,679 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:06,931 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:07,047 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:08,126 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:08,241 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:09,856 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:09,971 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:11,066 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:11,185 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:12,276 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:12,397 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:14,181 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:14,314 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:16,105 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:16,219 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:17,807 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:17,975 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:19,535 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:19,664 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:21,514 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:21,631 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:22,737 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:22,849 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:23,996 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:24,122 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:25,653 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:25,764 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:27,142 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:27,282 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:28,530 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:28,727 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:30,459 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:30,603 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:31,755 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:31,881 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:33,766 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:34,042 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:35,734 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:35,851 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:37,162 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:37,369 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:38,594 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:38,728 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:39,849 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:40,092 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:41,452 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:41,573 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:43,127 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:43,274 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:44,702 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:44,811 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:46,113 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:46,229 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:47,307 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:47,421 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:49,151 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:49,287 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:50,457 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:50,577 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:51,981 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:52,416 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:54,051 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:54,253 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:55,325 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:55,434 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:57,300 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:57,413 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:12:58,805 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:12:58,920 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:00,313 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:13:00,444 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:02,390 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:13:02,526 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290276218-625b09945b86d-242dfe89-50f423a4?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:02,541 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:13:02,868 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:02,891 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): run.googleapis.com:443
+2024-10-30 13:13:03,482 DEBUG    urllib3.connectionpool https://run.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1/services/urandom-generator:getIamPolicy?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:03,484 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): run.googleapis.com:443
+2024-10-30 13:13:04,404 DEBUG    urllib3.connectionpool https://run.googleapis.com:443 "POST /v1/projects/practica5-1234/locations/europe-west1/services/urandom-generator:setIamPolicy?alt=json HTTP/1.1" 200 None
+2024-10-30 13:13:04,405 INFO     ___FILE_ONLY___ You can view your function in the Cloud Console here: https://console.cloud.google.com/functions/details/europe-west1/urandom-generator?project=practica5-1234
+
+
+2024-10-30 13:13:04,413 DEBUG    root            Chosen display Format:default
+2024-10-30 13:13:04,414 INFO     root            Display format: "default"
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ buildConfig
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ automaticUpdatePolicy
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___  {
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ }
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ build
+2024-10-30 13:13:04,422 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ projects/453953318241/locations/europe-west1/builds/562dfe40-5530-4a21-abc3-5c8697743f32
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ dockerRegistry
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ ARTIFACT_REGISTRY
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ dockerRepository
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ projects/practica5-1234/locations/europe-west1/repositories/gcf-artifacts
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ entryPoint
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ get_urandom
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ runtime
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ python312
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ serviceAccount
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,423 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ projects/practica5-1234/serviceAccounts/453953318241-compute@developer.gserviceaccount.com
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ source
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___     
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ storageSource
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ bucket
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ gcf-v2-sources-453953318241-europe-west1
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,424 INFO     ___FILE_ONLY___ generation
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 1730290278517640
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ object
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ urandom-generator/function-source.zip
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ sourceProvenance
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___     
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ resolvedStorageSource
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ bucket
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ gcf-v2-sources-453953318241-europe-west1
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ generation
+2024-10-30 13:13:04,425 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 1730290278517640
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___       
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ object
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ urandom-generator/function-source.zip
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ createTime
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 2024-10-30T12:11:19.372246096Z
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ environment
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ GEN_2
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ labels
+2024-10-30 13:13:04,426 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ deployment-tool
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ cli-gcloud
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ name
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ projects/practica5-1234/locations/europe-west1/functions/urandom-generator
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ serviceConfig
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ allTrafficOnLatestRevision
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ true
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ availableCpu
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 0.0833
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,427 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ availableMemory
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 128Mi
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ environmentVariables
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___     
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ LOG_EXECUTION_ID
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ true
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ ingressSettings
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ ALLOW_ALL
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ maxInstanceCount
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 100
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ maxInstanceRequestConcurrency
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 1
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,428 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ revision
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ urandom-generator-00001-kih
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ service
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ projects/practica5-1234/locations/europe-west1/services/urandom-generator
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ serviceAccountEmail
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 453953318241-compute@developer.gserviceaccount.com
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ timeoutSeconds
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 60
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___   
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ uri
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ https://urandom-generator-l5z4h2hsva-ew.a.run.app
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ state
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ ACTIVE
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,429 INFO     ___FILE_ONLY___ updateTime
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___  '
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ 2024-10-30T12:13:00.698067418Z
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ '
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ url
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ :
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___  
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ https://europe-west1-practica5-1234.cloudfunctions.net/urandom-generator
+2024-10-30 13:13:04,430 INFO     ___FILE_ONLY___ 
+
+2024-10-30 13:13:04,430 DEBUG    root            SDK update checks are disabled.

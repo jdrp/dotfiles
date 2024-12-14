@@ -1,0 +1,27 @@
+<project version="4">
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Python": {
+      "usageCount": 1,
+      "lastUsed": 1716498656601
+    }
+  }
+}]]></component>
+  <component name="LanguageUsageStatistics">
+    <language id="Python">
+      <summary usageCount="2" lastUsage="1716498656602" />
+    </language>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="311" key="FileChooserDialogImpl" timestamp="1716498667073">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="674" y="311" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1716498667073" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg/translate_icd_to_description.py" />
+    <entry file="file://$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project/geom_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

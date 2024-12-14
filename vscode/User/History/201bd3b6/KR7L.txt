@@ -1,0 +1,11 @@
+~ » gcloud config set compute/zone europe-west1-b                                                                                                                                           javierdrp@JavierUbuntu
+WARNING: Property validation for compute/zone was skipped.
+Updated property [compute/zone].
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+~ » export CLUSTER_NAME=cluster1                                                                                                                                                            javierdrp@JavierUbuntu
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+~ » gcloud container clusters create $CLUSTER_NAME \                                                                                                                                        javierdrp@JavierUbuntu
+--enable-master-authorized-networks \
+--enable-ip-alias \
+--disk-size 35 \
+--master-authorized-networks "$(curl ifconfig.me)/32"

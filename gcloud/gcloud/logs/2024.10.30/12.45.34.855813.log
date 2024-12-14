@@ -1,0 +1,207 @@
+2024-10-30 12:45:34,856 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-10-30 12:45:35,138 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-10-30 12:45:35,140 DEBUG    root            Running [gcloud.app.deploy] with arguments: [--image-url: "gcr.io/practica5-1234/supermario"]
+2024-10-30 12:45:35,152 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-10-30 12:45:35,163 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x78ba31c63890>]
+2024-10-30 12:45:35,380 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-10-30 12:45:35,387 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2024-10-30 12:45:35,722 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2024-10-30 12:45:35,723 INFO     ___FILE_ONLY___ descriptor:                  [/mnt/shared/Documents/OneDrive/icai/4-1/arquitectura de sistemas de red/p7/app.yaml]
+source:                      [/mnt/shared/Documents/OneDrive/icai/4-1/arquitectura de sistemas de red/p7]
+target project:              [practica5-1234]
+target service:              [default]
+target version:              [20241030t124535]
+target url:                  [https://practica5-1234.ew.r.appspot.com]
+target service account:      [practica5-1234@appspot.gserviceaccount.com]
+
+
+
+2024-10-30 12:45:40,773 DEBUG    root            No bucket specified, retrieving default bucket.
+2024-10-30 12:45:40,774 DEBUG    root            Using bucket [gs://staging.practica5-1234.appspot.com].
+2024-10-30 12:45:42,074 DEBUG    root            Service [appengineflex.googleapis.com] is already enabled for project [practica5-1234]
+2024-10-30 12:45:42,188 INFO     ___FILE_ONLY___ Beginning deployment of service [default]...
+
+2024-10-30 12:45:42,189 WARNING  root            Deployment of service [default] will ignore the skip_files field in the configuration file, because the image has already been built.
+2024-10-30 12:45:42,190 DEBUG    root            Converted YAML to JSON: "{
+  "automaticScaling": {
+    "coolDownPeriod": "300s",
+    "cpuUtilization": {
+      "targetUtilization": 0.1
+    },
+    "maxConcurrentRequests": 10,
+    "maxTotalInstances": 5,
+    "minTotalInstances": 1
+  },
+  "betaSettings": {
+    "module_yaml_path": "app.yaml",
+    "vm_runtime": "custom"
+  },
+  "entrypoint": {
+    "shell": ""
+  },
+  "env": "flex",
+  "handlers": [
+    {
+      "script": {
+        "scriptPath": "PLACEHOLDER"
+      },
+      "urlRegex": ".*"
+    }
+  ],
+  "resources": {
+    "cpu": 2.0,
+    "diskGb": 10,
+    "memoryGb": 2.0
+  },
+  "runtime": "vm"
+}"
+2024-10-30 12:45:43,506 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:45:43,506 INFO     ___FILE_ONLY___ Updating service [default] (this may take several minutes)...
+2024-10-30 12:45:44,838 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:45:50,778 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:45:56,921 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:02,454 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:08,086 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:14,025 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:19,244 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:25,083 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:30,616 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:36,655 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:42,697 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:48,534 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:53,897 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:46:59,898 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:06,043 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:11,575 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:17,203 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:22,940 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:29,422 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:34,716 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:40,001 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:46,043 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:52,499 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:47:58,885 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:05,492 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:11,380 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:17,357 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:23,293 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:29,372 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:34,612 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:39,947 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:45,726 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:51,619 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:48:57,688 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:03,845 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:09,180 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:14,508 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:19,940 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:25,979 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:31,981 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:37,832 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:44,079 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:49,919 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:49:55,960 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:01,780 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:07,624 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:13,742 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:19,811 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:25,724 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] not complete. Waiting to retry.
+2024-10-30 12:50:31,538 DEBUG    root            Operation [apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-10-30T11:50:27.645Z",
+        "insertTime": "2024-10-30T11:45:43.367Z",
+        "method": "google.appengine.v1.Versions.CreateVersion",
+        "target": "apps/practica5-1234/services/default/versions/20241030t124535",
+        "user": "jdiazderabago@gmail.com"
+    },
+    "name": "apps/practica5-1234/operations/54573ea5-939d-4e0c-bece-f68dee62ff44",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Version",
+        "automaticScaling": {
+            "coolDownPeriod": "300s",
+            "cpuUtilization": {
+                "targetUtilization": 0.1
+            },
+            "maxConcurrentRequests": 10,
+            "maxTotalInstances": 5,
+            "minTotalInstances": 1
+        },
+        "betaSettings": {
+            "has_docker_image": "true",
+            "module_yaml_path": "app.yaml",
+            "no_appserver_affinity": "true",
+            "use_deployment_manager": "true"
+        },
+        "createTime": "2024-10-30T11:45:48Z",
+        "env": "flexible",
+        "id": "20241030t124535",
+        "livenessCheck": {
+            "checkInterval": "30s",
+            "failureThreshold": 4,
+            "initialDelay": "300s",
+            "successThreshold": 2,
+            "timeout": "4s"
+        },
+        "name": "apps/practica5-1234/services/default/versions/20241030t124535",
+        "network": {},
+        "readinessCheck": {
+            "appStartTimeout": "300s",
+            "checkInterval": "5s",
+            "failureThreshold": 2,
+            "successThreshold": 2,
+            "timeout": "4s"
+        },
+        "resources": {
+            "cpu": 2,
+            "diskGb": 10,
+            "memoryGb": 2
+        },
+        "runtime": "custom",
+        "runtimeApiVersion": "1.0",
+        "servingStatus": "SERVING",
+        "threadsafe": true,
+        "versionUrl": "https://20241030t124535-dot-practica5-1234.appspot.com"
+    }
+}
+2024-10-30 12:50:31,864 DEBUG    root            Operation [apps/practica5-1234/operations/87b5845e-fe3f-4bdf-8356-fa1918d02ec1] not complete. Waiting to retry.
+2024-10-30 12:50:31,865 INFO     ___FILE_ONLY___ Setting traffic split for service [default]...
+2024-10-30 12:50:33,057 DEBUG    root            Operation [apps/practica5-1234/operations/87b5845e-fe3f-4bdf-8356-fa1918d02ec1] not complete. Waiting to retry.
+2024-10-30 12:50:39,112 DEBUG    root            Operation [apps/practica5-1234/operations/87b5845e-fe3f-4bdf-8356-fa1918d02ec1] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-10-30T11:50:33.695Z",
+        "insertTime": "2024-10-30T11:50:31.801Z",
+        "method": "google.appengine.v1.Services.UpdateService",
+        "target": "apps/practica5-1234/services/default",
+        "user": "jdiazderabago@gmail.com"
+    },
+    "name": "apps/practica5-1234/operations/87b5845e-fe3f-4bdf-8356-fa1918d02ec1",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Service",
+        "id": "default",
+        "name": "apps/practica5-1234/services/default",
+        "split": {
+            "allocations": {
+                "20241030t124535": 1
+            }
+        }
+    }
+}
+2024-10-30 12:50:39,277 INFO     ___FILE_ONLY___ Deployed service [default] to [https://practica5-1234.ew.r.appspot.com]
+
+2024-10-30 12:50:39,278 INFO     ___FILE_ONLY___ 
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+2024-10-30 12:50:39,278 INFO     ___FILE_ONLY___ 
+To view your application in the web browser run:
+  $ gcloud app browse
+
+2024-10-30 12:50:39,279 DEBUG    root            Chosen display Format:none
+2024-10-30 12:50:39,279 INFO     root            Display format: "none"
+2024-10-30 12:50:39,298 DEBUG    root            SDK update checks are disabled.

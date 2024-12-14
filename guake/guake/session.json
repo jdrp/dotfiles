@@ -1,0 +1,40 @@
+{
+    "schema_version": 2,
+    "timestamp": 1734093723,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/mnt/shared/Documents/OneDrive/learncpp/raytracer",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "raytracer",
+                    "custom_label_set": false
+                },
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/javierdrp",
+                            "custom_colors": {
+                                "fg_color": null,
+                                "bg_color": null,
+                                "palette": null
+                            }
+                        }
+                    ],
+                    "label": "raytracer",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

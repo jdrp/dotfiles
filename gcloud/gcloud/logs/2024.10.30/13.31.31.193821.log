@@ -1,0 +1,46 @@
+2024-10-30 13:31:31,203 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'images']
+2024-10-30 13:31:31,221 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'images', 'delete']
+2024-10-30 13:31:31,244 DEBUG    root            Running [gcloud.container.images.delete] with arguments: [IMAGE_NAME:1: "['gcr.io/proyectotest-1/cloud-run-example']"]
+2024-10-30 13:31:31,245 WARNING  root            Implicit ":latest" tag specified: gcr.io/proyectotest-1/cloud-run-example
+2024-10-30 13:31:31,246 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): gcr.io:443
+2024-10-30 13:31:31,361 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:31,598 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:31,952 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/proyectotest-1/cloud-run-example/manifests/latest HTTP/1.1" 404 None
+2024-10-30 13:31:31,955 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): gcr.io:443
+2024-10-30 13:31:32,067 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:32,327 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:32,731 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/proyectotest-1/cloud-run-example/manifests/latest HTTP/1.1" 200 1783
+2024-10-30 13:31:32,731 WARNING  root            Successfully resolved tag to sha256, but it is recommended to use sha256 directly.
+2024-10-30 13:31:32,733 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): gcr.io:443
+2024-10-30 13:31:32,852 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:33,064 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:33,342 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/proyectotest-1/cloud-run-example/tags/list HTTP/1.1" 200 None
+2024-10-30 13:31:33,343 INFO     ___FILE_ONLY___ Digests:
+
+2024-10-30 13:31:33,343 INFO     ___FILE_ONLY___ - gcr.io/proyectotest-1/cloud-run-example@sha256:35bb2e7753a98c4b5e9e60a500e28ad259b12302f7b07440af6f5076eba34d19
+
+2024-10-30 13:31:33,398 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:33,618 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:33,885 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/proyectotest-1/cloud-run-example/tags/list HTTP/1.1" 200 None
+2024-10-30 13:31:33,886 DEBUG    root            Chosen display Format:list[title="  Associated tags:"]
+2024-10-30 13:31:33,886 INFO     ___FILE_ONLY___   Associated tags:
+
+2024-10-30 13:31:33,886 INFO     ___FILE_ONLY___  - latest
+
+2024-10-30 13:31:33,886 INFO     ___FILE_ONLY___ Tags:
+
+2024-10-30 13:31:33,886 INFO     ___FILE_ONLY___ - gcr.io/proyectotest-1/cloud-run-example:latest
+
+2024-10-30 13:31:35,272 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:35,487 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apush%2Cpull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:36,180 DEBUG    urllib3.connectionpool https://gcr.io:443 "DELETE /v2/proyectotest-1/cloud-run-example/manifests/latest HTTP/1.1" 202 0
+2024-10-30 13:31:36,180 INFO     ___FILE_ONLY___ Deleted [gcr.io/proyectotest-1/cloud-run-example:latest].
+
+2024-10-30 13:31:36,212 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/ HTTP/1.1" 401 None
+2024-10-30 13:31:36,450 DEBUG    urllib3.connectionpool https://gcr.io:443 "GET /v2/token?scope=repository%3Aproyectotest-1%2Fcloud-run-example%3Apush%2Cpull&service=gcr.io HTTP/1.1" 200 None
+2024-10-30 13:31:37,128 DEBUG    urllib3.connectionpool https://gcr.io:443 "DELETE /v2/proyectotest-1/cloud-run-example/manifests/sha256:35bb2e7753a98c4b5e9e60a500e28ad259b12302f7b07440af6f5076eba34d19 HTTP/1.1" 202 0
+2024-10-30 13:31:37,129 INFO     ___FILE_ONLY___ Deleted [gcr.io/proyectotest-1/cloud-run-example@sha256:35bb2e7753a98c4b5e9e60a500e28ad259b12302f7b07440af6f5076eba34d19].
+
+2024-10-30 13:31:37,129 DEBUG    root            Chosen display Format:none
+2024-10-30 13:31:37,129 INFO     root            Display format: "none"
+2024-10-30 13:31:37,137 DEBUG    root            SDK update checks are disabled.

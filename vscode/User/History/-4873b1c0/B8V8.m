@@ -1,0 +1,11 @@
+function [interleavedBits] = interleaver(bits, numCarriers)
+    numBits = length(bits);
+
+    % defines s which s
+    s = 8 * (1 + floor((numBits/numCarriers) / 2));
+
+    % rearrange in matrix, transpose to interleave and flatten
+    intMatrix = reshape(bits, [numBits / s, s]);
+    intMatrix = intMatrix.';
+    interleavedBits = intMatrix(:).';
+end

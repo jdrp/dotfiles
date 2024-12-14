@@ -1,0 +1,16 @@
+2024-10-29 16:25:54,409 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:25:54,433 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-29 16:25:54,434 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "practica5-1234"]
+2024-10-29 16:25:54,447 WARNING  root            Your active project does not match the quota project in your local Application Default Credentials file. This might result in unexpected quota issues.
+
+To update your Application Default Credentials quota project, use the `gcloud auth application-default set-quota-project` command.
+2024-10-29 16:25:54,455 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-29 16:25:54,456 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-29 16:25:54,791 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-29 16:25:54,830 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-29 16:25:55,905 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/practica5-1234?alt=json HTTP/1.1" 200 None
+2024-10-29 16:25:55,910 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2024-10-29 16:25:55,911 DEBUG    root            Chosen display Format:default
+2024-10-29 16:25:55,912 INFO     root            Display format: "default"
+2024-10-29 16:25:55,912 DEBUG    root            SDK update checks are disabled.

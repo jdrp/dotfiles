@@ -1,0 +1,11 @@
+2024-10-29 16:42:18,595 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:42:18,619 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-29 16:42:18,620 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/zone", VALUE: "europe-west1-b"]
+2024-10-29 16:42:18,703 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-29 16:42:19,436 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica5-1234/zones/europe-west1-b?alt=json HTTP/1.1" 200 None
+2024-10-29 16:42:19,441 WARNING  root            Property validation for compute/zone was skipped.
+2024-10-29 16:42:19,442 INFO     ___FILE_ONLY___ Updated property [compute/zone].
+
+2024-10-29 16:42:19,442 DEBUG    root            Chosen display Format:default
+2024-10-29 16:42:19,443 INFO     root            Display format: "default"
+2024-10-29 16:42:19,443 DEBUG    root            SDK update checks are disabled.

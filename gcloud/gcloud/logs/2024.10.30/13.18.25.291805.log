@@ -1,0 +1,23 @@
+2024-10-30 13:18:25,292 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2024-10-30 13:18:25,348 DEBUG    root            Loaded Command Group: ['gcloud', 'functions', 'delete']
+2024-10-30 13:18:25,352 DEBUG    root            Running [gcloud.functions.delete] with arguments: [--quiet: "True", --region: "europe-west1", NAME: "urandom-generator"]
+2024-10-30 13:18:25,362 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:25,771 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 200 None
+2024-10-30 13:18:25,783 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:25,928 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "DELETE /v2/projects/practica5-1234/locations/europe-west1/functions/urandom-generator?alt=json HTTP/1.1" 200 None
+2024-10-30 13:18:25,934 INFO     ___FILE_ONLY___ Preparing function...
+2024-10-30 13:18:25,937 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:26,067 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json HTTP/1.1" 200 None
+2024-10-30 13:18:26,136 INFO     ___FILE_ONLY___ Deleting function...
+2024-10-30 13:18:26,140 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:26,272 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json HTTP/1.1" 200 None
+2024-10-30 13:18:27,888 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:27,892 DEBUG    root            Caught socket error, retrying: HTTPSConnectionPool(host='cloudfunctions.googleapis.com', port=443): Max retries exceeded with url: /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77842ec53c90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-10-30 13:18:27,893 DEBUG    root            Retrying request to url https://cloudfunctions.googleapis.com/v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json after exception HTTPSConnectionPool(host='cloudfunctions.googleapis.com', port=443): Max retries exceeded with url: /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77842ec53c90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-10-30 13:18:29,647 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:18:29,851 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/practica5-1234/locations/europe-west1/operations/operation-1730290705923-625b0b2e27ead-902e2fba-f7004368?alt=json HTTP/1.1" 200 None
+2024-10-30 13:18:29,951 INFO     ___FILE_ONLY___ Deleted [projects/practica5-1234/locations/europe-west1/functions/urandom-generator].
+
+2024-10-30 13:18:29,951 DEBUG    root            Chosen display Format:none
+2024-10-30 13:18:29,951 INFO     root            Display format: "none"
+2024-10-30 13:18:29,952 DEBUG    root            SDK update checks are disabled.

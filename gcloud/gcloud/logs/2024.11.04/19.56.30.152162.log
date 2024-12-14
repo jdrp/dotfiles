@@ -1,0 +1,26 @@
+2024-11-04 19:56:30,155 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-11-04 19:56:30,156 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'resize']
+2024-11-04 19:56:30,240 DEBUG    root            Running [gcloud.container.clusters.resize] with arguments: [--num-nodes: "6", --zone: "europe-west1-b", NAME: "scaling-demo"]
+2024-11-04 19:56:30,242 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-11-04 19:56:30,697 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-11-04 19:56:30,705 DEBUG    root            (gcloud.container.clusters.resize) Please specify one of the following node pools:
+default-pool
+nap-e2-highcpu-2-qc6lbrrg
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/resize.py", line 89, in Run
+    pool_name = adapter.FindNodePool(cluster, args.node_pool).name
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1922, in FindNodePool
+    raise util.Error(msg)
+googlecloudsdk.api_lib.container.util.Error: Please specify one of the following node pools:
+default-pool
+nap-e2-highcpu-2-qc6lbrrg
+2024-11-04 19:56:30,721 ERROR    root            (gcloud.container.clusters.resize) Please specify one of the following node pools:
+default-pool
+nap-e2-highcpu-2-qc6lbrrg

@@ -1,0 +1,8 @@
+2024-10-29 16:25:36,717 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:25:36,741 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-29 16:25:36,742 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "account", VALUE: "jdiazderabago@gmail.com"]
+2024-10-29 16:25:36,743 INFO     ___FILE_ONLY___ Updated property [core/account].
+
+2024-10-29 16:25:36,743 DEBUG    root            Chosen display Format:default
+2024-10-29 16:25:36,744 INFO     root            Display format: "default"
+2024-10-29 16:25:36,744 DEBUG    root            SDK update checks are disabled.

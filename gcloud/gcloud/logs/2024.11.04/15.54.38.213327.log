@@ -1,0 +1,117 @@
+2024-11-04 15:54:38,213 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2024-11-04 15:54:38,216 DEBUG    root            Loaded Command Group: ['gcloud', 'services', 'enable']
+2024-11-04 15:54:38,217 DEBUG    root            Running [gcloud.services.enable] with arguments: [SERVICE:4: "['compute.googleapis.com', ' container.googleapis.com', ' containeranalysis.googleapis.com', ' containerregistry.googleapis.com']"]
+2024-11-04 15:54:38,231 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-11-04 15:54:39,105 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/proyectotest-1/services:batchEnable?alt=json HTTP/1.1" 403 None
+2024-11-04 15:54:39,108 DEBUG    root            Chosen display Format:default
+2024-11-04 15:54:39,119 DEBUG    root            Chosen display Format:default
+2024-11-04 15:54:39,117 DEBUG    root            (gcloud.services.enable) [jdiazderabago@gmail.com] does not have permission to access projects instance [proyectotest-1] (or it may not exist): Not found or permission denied for service(s):  container.googleapis.com.
+Help Token: AYJSUtlKiXbxG5AggbLalhqUDrFfMD-FraZOffeKuFSScoLsaKdSe5MFNln3eR7HbfI4pa28H2SCMwk8JSL0iSssUAtH0OnVx-DZE3vc4ytgueqr. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=220002&services=+container.googleapis.com
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    services: ' container.googleapis.com'
+  reason: SERVICE_CONFIG_NOT_FOUND_OR_PERMISSION_DENIED
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 695, in BatchEnableApiCall
+    return client.services.BatchEnable(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/serviceusage/v1/serviceusage_v1_client.py", line 182, in BatchEnable
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpForbiddenError: HttpError accessing <https://serviceusage.googleapis.com/v1/projects/proyectotest-1/services:batchEnable?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Mon, 04 Nov 2024 14:54:39 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': 403}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Not found or permission denied for service(s):  container.googleapis.com.\nHelp Token: AYJSUtlKiXbxG5AggbLalhqUDrFfMD-FraZOffeKuFSScoLsaKdSe5MFNln3eR7HbfI4pa28H2SCMwk8JSL0iSssUAtH0OnVx-DZE3vc4ytgueqr",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.PreconditionFailure",
+        "violations": [
+          {
+            "type": "googleapis.com",
+            "subject": "?error_code=220002&services=+container.googleapis.com"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "SERVICE_CONFIG_NOT_FOUND_OR_PERMISSION_DENIED",
+        "domain": "serviceusage.googleapis.com",
+        "metadata": {
+          "services": " container.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/services/enable.py", line 200, in Run
+    op = serviceusage.BatchEnableApiCall(project, args.service)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 698, in BatchEnableApiCall
+    exceptions.ReraiseError(e,
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/exceptions.py", line 158, in ReraiseError
+    core_exceptions.reraise(klass(api_lib_exceptions.HttpException(err)))
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 149, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/six/__init__.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 695, in BatchEnableApiCall
+    return client.services.BatchEnable(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/serviceusage/v1/serviceusage_v1_client.py", line 182, in BatchEnable
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+googlecloudsdk.api_lib.services.exceptions.EnableServicePermissionDeniedException: [jdiazderabago@gmail.com] does not have permission to access projects instance [proyectotest-1] (or it may not exist): Not found or permission denied for service(s):  container.googleapis.com.
+Help Token: AYJSUtlKiXbxG5AggbLalhqUDrFfMD-FraZOffeKuFSScoLsaKdSe5MFNln3eR7HbfI4pa28H2SCMwk8JSL0iSssUAtH0OnVx-DZE3vc4ytgueqr. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=220002&services=+container.googleapis.com
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    services: ' container.googleapis.com'
+  reason: SERVICE_CONFIG_NOT_FOUND_OR_PERMISSION_DENIED
+2024-11-04 15:54:39,120 ERROR    root            (gcloud.services.enable) [jdiazderabago@gmail.com] does not have permission to access projects instance [proyectotest-1] (or it may not exist): Not found or permission denied for service(s):  container.googleapis.com.
+Help Token: AYJSUtlKiXbxG5AggbLalhqUDrFfMD-FraZOffeKuFSScoLsaKdSe5MFNln3eR7HbfI4pa28H2SCMwk8JSL0iSssUAtH0OnVx-DZE3vc4ytgueqr. This command is authenticated as jdiazderabago@gmail.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=220002&services=+container.googleapis.com
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    services: ' container.googleapis.com'
+  reason: SERVICE_CONFIG_NOT_FOUND_OR_PERMISSION_DENIED

@@ -1,0 +1,32 @@
+2024-11-05 13:24:43,666 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-11-05 13:24:43,667 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2024-11-05 13:24:43,668 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2024-11-05 13:24:43,676 DEBUG    root            Chosen display Format:default json
+2024-11-05 13:24:43,676 INFO     root            Display format: "default json"
+2024-11-05 13:24:43,683 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "compute": {
+        "region": "europe-west1",
+        "zone": "europe-west1-b"
+      },
+      "core": {
+        "account": "jdiazderabago@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "proyectotest-1"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AeDClZA_G4p2E8la5goTt_4UyDLENc44J7xHAOWb6Z9_7oy--EbPRqhE0b4HQo9jDv3tlAwcZBqho7KOVl3q-XYb1uKX5bSxBox_6ISpmGAL1x3g9P7T-DzF_oOchHtS-8fhF8OqELuviR0eCRYtkvDbu4Ybi9FJcoDlMgHl0sIcmpwaCgYKAaISARISFQHGX2MiztU2i7hcgcD-aSZhr2z2kA0182",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImU4NjNmZTI5MmZhMmEyOTY3Y2Q3NTUxYzQyYTEyMTFiY2FjNTUwNzEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExOTExMDA5MTcwOTYxOTU4NjUzIiwiZW1haWwiOiJqZGlhemRlcmFiYWdvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiTlFfYTMyLXFDT29mUjRKX09ieE40QSIsImlhdCI6MTczMDgwOTA5NiwiZXhwIjoxNzMwODEyNjk2fQ.rm2ic_zJdfB5OzIsevYjA8t344ptBvvS9rrAQFVGVi32Vy3XG2SlzUIpX3dAOCEthJgoFd5agnYo9jqPM3TQ9uFuSQYXlkAR32r0rqMM7A4P-0v9_smQiQ4GMUnA4RrQc3HhMb7yw6SIMz_dFM3HLt_P1S_oNW9Zl_JocjPWBgusx52s3OBCfEw8rq9eTQTgD7ZyGteWN5CW-aWMM4kHWNDyxRT9dsa2Qm54Fk3XECn5B7y0rZJycB5zj-8ArJeLv3Z1HF-NtjHlxA6C4fQxjsLK92EzqmLJtrVwyxB4u7ZBduK3sJA1nEc1FexXvAcki3t8VnNzmZzt5m0eCoEPTA",
+    "token_expiry": "2024-11-05T13:18:15Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/javierdrp/.config/gcloud/config_sentinel"
+  }
+}
+2024-11-05 13:24:43,683 INFO     ___FILE_ONLY___ 
+
+2024-11-05 13:24:43,683 DEBUG    root            SDK update checks are disabled.

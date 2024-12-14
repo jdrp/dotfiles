@@ -1,0 +1,23 @@
+2024-10-29 16:20:32,822 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-29 16:20:32,861 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-29 16:20:32,862 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "compute/zone", VALUE: "europe-west1-b"]
+2024-10-29 16:20:33,055 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-29 16:20:33,056 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-29 16:20:33,327 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-29 16:20:33,344 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-29 16:20:33,346 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-29 16:20:33,608 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-29 16:20:33,754 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-29 16:20:34,450 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234/zones/europe-west1-b?alt=json HTTP/1.1" 200 None
+2024-10-29 16:20:34,454 WARNING  root            Property validation for compute/zone was skipped.
+2024-10-29 16:20:34,456 INFO     ___FILE_ONLY___ Updated property [compute/zone].
+
+2024-10-29 16:20:34,456 DEBUG    root            Chosen display Format:default
+2024-10-29 16:20:34,457 INFO     root            Display format: "default"
+2024-10-29 16:20:34,457 DEBUG    root            SDK update checks are disabled.
+2024-10-29 16:20:34,467 INFO     ___FILE_ONLY___ 
+
+To take a quick anonymous survey, run:
+  $ gcloud survey
+
+

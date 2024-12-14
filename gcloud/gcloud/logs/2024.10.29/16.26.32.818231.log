@@ -1,0 +1,41 @@
+2024-10-29 16:26:32,818 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2024-10-29 16:26:32,819 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application_default']
+2024-10-29 16:26:32,829 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'application-default', 'set_quota_project']
+2024-10-29 16:26:32,830 DEBUG    root            Running [gcloud.auth.application-default.set-quota-project] with arguments: [QUOTA_PROJECT_ID: "practica5-1234"]
+2024-10-29 16:26:32,838 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:32,840 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-29 16:26:32,841 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-29 16:26:32,972 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-29 16:26:32,998 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:33,011 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-29 16:26:33,685 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "POST /v1/projects/practica5-1234:testIamPermissions?alt=json HTTP/1.1" 403 None
+2024-10-29 16:26:33,688 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:35,694 INFO     ___FILE_ONLY___ Enabling service [cloudresourcemanager.googleapis.com] on project [practica5-1234]...
+
+2024-10-29 16:26:35,697 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:35,705 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:26:37,497 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/practica5-1234/services/cloudresourcemanager.googleapis.com:enable?alt=json HTTP/1.1" 200 None
+2024-10-29 16:26:37,502 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:37,504 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:26:38,344 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acat.p2-453953318241-051cfeb1-a927-4fe9-b55d-80944c446e45?alt=json HTTP/1.1" 200 None
+2024-10-29 16:26:40,518 INFO     root            Using alternate credentials from file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+2024-10-29 16:26:40,522 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:26:41,327 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/operations/acat.p2-453953318241-051cfeb1-a927-4fe9-b55d-80944c446e45?alt=json HTTP/1.1" 200 None
+2024-10-29 16:26:41,332 INFO     ___FILE_ONLY___ Operation "operations/acat.p2-453953318241-051cfeb1-a927-4fe9-b55d-80944c446e45" finished successfully.
+
+2024-10-29 16:26:41,332 DEBUG    root            Request returned no response, retrying
+2024-10-29 16:26:41,332 DEBUG    root            Retrying request to url https://cloudresourcemanager.googleapis.com/v1/projects/practica5-1234:testIamPermissions?alt=json after exception Retry
+2024-10-29 16:26:43,050 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-29 16:26:44,026 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "POST /v1/projects/practica5-1234:testIamPermissions?alt=json HTTP/1.1" 200 None
+2024-10-29 16:26:44,030 INFO     ___FILE_ONLY___ 
+Credentials saved to file: [/home/javierdrp/.config/gcloud/application_default_credentials.json]
+
+2024-10-29 16:26:44,030 INFO     ___FILE_ONLY___ 
+These credentials will be used by any library that requests Application Default Credentials (ADC).
+
+2024-10-29 16:26:44,030 INFO     ___FILE_ONLY___ 
+Quota project "practica5-1234" was added to ADC which can be used by Google client libraries for billing and quota. Note that some services may still bill the project owning the resource.
+
+2024-10-29 16:26:44,030 DEBUG    root            Chosen display Format:none
+2024-10-29 16:26:44,031 INFO     root            Display format: "none"
+2024-10-29 16:26:44,031 DEBUG    root            SDK update checks are disabled.

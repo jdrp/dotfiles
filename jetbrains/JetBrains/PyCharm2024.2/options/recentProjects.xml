@@ -1,0 +1,52 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo hidden="true">
+              <option name="activationTimestamp" value="1716498668911" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/llama2base">
+          <value>
+            <RecentProjectMetaInfo frameTitle="llama2base" projectWorkspaceId="2c1yYL37CytbuumIMpRjKyEBSKc">
+              <option name="activationTimestamp" value="1709287270022" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.14475.56" />
+              <option name="buildTimestamp" value="1708902120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1709214357248" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/OneDrive/icai/tfg/llm_hallucinations">
+          <value>
+            <RecentProjectMetaInfo frameTitle="llm_hallucinations – bcv_sca.py" opened="true" projectWorkspaceId="2nlP4FX22QWD5GSVQwOVbGXxwXt">
+              <option name="activationTimestamp" value="1730721291671" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-242.23726.102" />
+              <option name="buildTimestamp" value="1729624860000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1729836172057" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/OneDrive/icai/tfg/llm_hallucinations" />
+    <option name="lastProjectLocation" value="$USER_HOME$" />
+  </component>
+</application>

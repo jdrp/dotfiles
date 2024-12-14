@@ -1,0 +1,35 @@
+2024-10-29 23:10:44,740 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 23:10:44,741 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'update']
+2024-10-29 23:10:44,778 DEBUG    root            Running [gcloud.container.clusters.update] with arguments: [--enable-autoscaling: "True", --max-nodes: "5", --min-nodes: "1", NAME: "scaling-demo"]
+2024-10-29 23:10:44,779 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:10:45,102 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-10-29 23:10:45,110 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:10:45,717 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "PUT /v1/projects/practica5-1234/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-10-29 23:10:45,723 INFO     ___FILE_ONLY___ Updating scaling-demo...
+2024-10-29 23:10:45,725 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:10:45,950 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730239845485-2f817e26-724b-4ee4-be45-e0d28bb1dcd6?alt=json HTTP/1.1" 200 None
+2024-10-29 23:10:50,953 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:10:51,246 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730239845485-2f817e26-724b-4ee4-be45-e0d28bb1dcd6?alt=json HTTP/1.1" 200 None
+2024-10-29 23:10:51,248 INFO     root            Operation <Operation
+ clusterConditions: []
+ endTime: '2024-10-29T22:10:49.909134962Z'
+ name: 'operation-1730239845485-2f817e26-724b-4ee4-be45-e0d28bb1dcd6'
+ nodepoolConditions: []
+ operationType: OperationTypeValueValuesEnum(UPDATE_CLUSTER, 6)
+ progress: <OperationProgress
+ metrics: [<Metric
+ intValue: 3
+ name: 'NODES_TOTAL'>]
+ stages: []>
+ selfLink: 'https://container.googleapis.com/v1/projects/453953318241/zones/europe-west1-b/operations/operation-1730239845485-2f817e26-724b-4ee4-be45-e0d28bb1dcd6'
+ startTime: '2024-10-29T22:10:45.485024186Z'
+ status: StatusValueValuesEnum(DONE, 3)
+ targetLink: 'https://container.googleapis.com/v1/projects/453953318241/zones/europe-west1-b/clusters/scaling-demo/nodePools/default-pool'
+ zone: 'europe-west1-b'> finished after 5.52 seconds
+2024-10-29 23:10:51,331 INFO     ___FILE_ONLY___ Updated [https://container.googleapis.com/v1/projects/practica5-1234/zones/europe-west1-b/clusters/scaling-demo].
+
+2024-10-29 23:10:51,331 INFO     ___FILE_ONLY___ To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/europe-west1-b/scaling-demo?project=practica5-1234
+
+2024-10-29 23:10:51,332 DEBUG    root            Chosen display Format:none
+2024-10-29 23:10:51,332 INFO     root            Display format: "none"
+2024-10-29 23:10:51,332 DEBUG    root            SDK update checks are disabled.

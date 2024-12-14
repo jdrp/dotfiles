@@ -1,0 +1,13 @@
+2024-10-24 14:51:10,310 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-24 14:51:10,311 ERROR    root            (gcloud.config) Command name argument expected.
+2024-10-24 14:51:10,420 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-24 14:51:10,421 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'universe_descriptors']
+2024-10-24 14:51:10,421 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations']
+2024-10-24 14:51:10,422 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'virtualenv']
+2024-10-24 14:51:10,423 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2024-10-24 14:51:10,424 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get']
+2024-10-24 14:51:10,425 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2024-10-24 14:51:10,426 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2024-10-24 14:51:10,427 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'unset']
+2024-10-24 14:51:10,427 DEBUG    root            Chosen display Format:table[no-heading,margin=6,width=80]([0]:label='':align=left:width=22,[1]:label='':align=left:wrap)
+2024-10-24 14:51:10,437 DEBUG    root            Chosen display Format:table[no-heading,margin=6,width=80]([0]:label='':align=left:width=22,[1]:label='':align=left:wrap)

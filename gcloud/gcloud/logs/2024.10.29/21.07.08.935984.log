@@ -1,0 +1,7 @@
+2024-10-29 21:07:08,937 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 21:07:08,938 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2024-10-29 21:07:09,013 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

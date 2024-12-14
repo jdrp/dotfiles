@@ -1,0 +1,33 @@
+2024-10-30 13:45:38,652 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2024-10-30 13:45:38,788 DEBUG    root            Loaded Command Group: ['gcloud', 'functions', 'deploy']
+2024-10-30 13:45:38,798 DEBUG    root            Running [gcloud.functions.deploy] with arguments: [--docker-registry: "artifact-registry", --entry-point: "ingest_transaction", --memory: "512MB", --runtime: "python38", --timeout: "60", --trigger-event: "google.storage.object.finalize", --trigger-resource: "asr-cloud-test-01", NAME: "ingester-transactions"]
+2024-10-30 13:45:38,807 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:45:39,765 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/proyectotest-1/locations/us-central1/functions/ingester-transactions?alt=json HTTP/1.1" 404 None
+2024-10-30 13:45:39,769 INFO     ___FILE_ONLY___ As of this Cloud SDK release, new functions will be deployed as 2nd gen  functions by default. This is equivalent to currently deploying new  with the --gen2 flag. Existing 1st gen functions will not be impacted and will continue to deploy as 1st gen functions.
+You can disable this behavior by explicitly specifying the --no-gen2 flag or by setting the functions/gen2 config property to 'off'.
+To learn more about the differences between 1st gen and 2nd gen functions, visit:
+https://cloud.google.com/functions/docs/concepts/version-comparison
+
+2024-10-30 13:45:39,775 DEBUG    root            (gcloud.functions.deploy) `--docker-registry` is only supported in Cloud Functions (First generation).
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/util.py", line 387, in CatchHTTPErrorRaiseHTTPExceptionFn
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/functions/util.py", line 86, in Run
+    return self._RunV2(args)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/functions/deploy.py", line 144, in _RunV2
+    return command_v2.Run(args, self.ReleaseTrack())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/functions/v2/deploy/command.py", line 1206, in Run
+    _ValidateV1OnlyFlags(args)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/functions/v2/deploy/command.py", line 979, in _ValidateV1OnlyFlags
+    raise exceptions.FunctionsError(_V1_ONLY_FLAG_ERROR % flag_name)
+googlecloudsdk.api_lib.functions.v2.exceptions.FunctionsError: `--docker-registry` is only supported in Cloud Functions (First generation).
+2024-10-30 13:45:39,777 ERROR    root            (gcloud.functions.deploy) `--docker-registry` is only supported in Cloud Functions (First generation).

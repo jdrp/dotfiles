@@ -1,0 +1,69 @@
+{
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.configureOnOpen": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "terminal.integrated.profiles.linux": {
+        //...existing profiles...
+       "tmux-shell": {
+            "path": "tmux",
+            "args": ["new-session", "-A", "-s", "vscode:${workspaceFolder}"]
+        }
+    },       
+    "terminal.integrated.defaultProfile.linux": "tmux-shell",
+    "MATLAB.installPath": "/usr/local/MATLAB/R2024a",
+    "git.autofetch": true,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": false,
+    "workbench.colorTheme": "Best Themes - Github Dark Default",
+    "editor.fontFamily": "\"JetBrains Mono\"",
+    "editor.fontLigatures": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim.appimage",
+    "zenMode.showTabs": "single",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.ppm": "simple-ppm-viewer.imagepreview"
+    },
+    "workbench.editor.showTabs": "single",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/javierdrp/.config/nvim/init.lua",
+    "files.exclude": {
+        "**/mnt/shared/Documents/OneDrive/**": true
+    },
+    "editor.autoIndent": "advanced",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+    "search.followSymlinks": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.sideBar.location": "right",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.revealIfOpen": true,
+}

@@ -1,0 +1,8 @@
+2024-10-30 12:27:01,289 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-30 12:27:01,291 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2024-10-30 12:27:01,292 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2024-10-30 12:27:01,293 DEBUG    root            Chosen display Format:value(.)
+2024-10-30 12:27:01,293 INFO     root            Display format: "value(.)"
+2024-10-30 12:27:01,293 INFO     ___FILE_ONLY___ practica5-1234
+
+2024-10-30 12:27:01,293 DEBUG    root            SDK update checks are disabled.

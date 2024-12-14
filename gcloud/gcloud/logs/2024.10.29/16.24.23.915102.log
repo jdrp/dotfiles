@@ -1,0 +1,175 @@
+2024-10-29 16:24:23,933 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-10-29 16:24:23,937 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'list']
+2024-10-29 16:24:23,938 DEBUG    root            Running [gcloud.projects.list] with arguments: []
+2024-10-29 16:24:23,938 INFO     root            client_filter="None" server_filter="None"
+2024-10-29 16:24:24,012 DEBUG    root            Chosen display Format:
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+
+2024-10-29 16:24:24,013 INFO     root            Display format: "
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+"
+2024-10-29 16:24:24,014 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-29 16:24:25,131 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500 HTTP/1.1" 403 None
+2024-10-29 16:24:31,312 INFO     ___FILE_ONLY___ Enabling service [cloudresourcemanager.googleapis.com] on project [105026328049]...
+
+2024-10-29 16:24:31,373 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-29 16:24:32,602 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "POST /v1/projects/105026328049/services/cloudresourcemanager.googleapis.com:enable?alt=json HTTP/1.1" 403 None
+2024-10-29 16:24:32,607 DEBUG    root            Chosen display Format:default
+2024-10-29 16:24:32,645 DEBUG    root            Chosen display Format:default
+2024-10-29 16:24:32,642 DEBUG    root            (gcloud.projects.list) PERMISSION_DENIED: Permission denied to enable service [cloudresourcemanager.googleapis.com]
+Help Token: AYJSUtlSmJ9IoMsQdnA9e_Q84j0xRWrhLZPHay19t4iwTfLVAlghhFrgp-1WcDHgrT50auetl5IoD2JJyUqZn-VmYP4CUs4UQ5JVhgapJgJ8WeuN. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=110002&service=serviceusage.googleapis.com&permission=serviceusage.services.enable&resource=105026328049
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    permission: serviceusage.services.enable
+    resource: '105026328049'
+    service: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 666, in EnableApiCall
+    return client.services.Enable(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/serviceusage/v1/serviceusage_v1_client.py", line 263, in Enable
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpForbiddenError: HttpError accessing <https://serviceusage.googleapis.com/v1/projects/105026328049/services/cloudresourcemanager.googleapis.com:enable?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Tue, 29 Oct 2024 15:24:32 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': 403}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Permission denied to enable service [cloudresourcemanager.googleapis.com]\nHelp Token: AYJSUtlSmJ9IoMsQdnA9e_Q84j0xRWrhLZPHay19t4iwTfLVAlghhFrgp-1WcDHgrT50auetl5IoD2JJyUqZn-VmYP4CUs4UQ5JVhgapJgJ8WeuN",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.PreconditionFailure",
+        "violations": [
+          {
+            "type": "googleapis.com",
+            "subject": "?error_code=110002&service=serviceusage.googleapis.com&permission=serviceusage.services.enable&resource=105026328049"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AUTH_PERMISSION_DENIED",
+        "domain": "serviceusage.googleapis.com",
+        "metadata": {
+          "service": "serviceusage.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "resource": "105026328049"
+        }
+      }
+    ]
+  }
+}
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 844, in Run
+    display_info=self.ai.display_info).Display()
+                                       ^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/display.py", line 487, in Display
+    self._printer.Print(self._resources)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/resource/resource_printer_base.py", line 301, in Print
+    for resource in resources:
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/list_pager.py", line 120, in YieldFromList
+    response = getattr(service, method)(request,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/cloudresourcemanager/v1/cloudresourcemanager_v1_client.py", line 888, in List
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 744, in _RunMethod
+    http_response = http_wrapper.MakeRequest(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 359, in MakeRequest
+    retry_func(ExceptionRetryArgs(http, http_request, e, retry,
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 304, in HandleExceptionsAndRebuildHttpConnections
+    raise retry_args.exc
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 348, in MakeRequest
+    return _MakeRequestNoRetry(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/http_wrapper.py", line 406, in _MakeRequestNoRetry
+    check_response_func(response)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 231, in _CheckResponse
+    _CheckForApiEnablementError(response_as_error)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 197, in _CheckForApiEnablementError
+    PromptToEnableApi(*enablement_info)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 174, in PromptToEnableApi
+    api_enable_attempted = api_enablement.PromptToEnableApi(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/api_enablement.py", line 78, in PromptToEnableApi
+    enable_api.EnableService(project, service_token)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/enable_api.py", line 66, in EnableService
+    op = serviceusage.EnableApiCall(project_id, service_name)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 669, in EnableApiCall
+    exceptions.ReraiseError(e,
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/exceptions.py", line 158, in ReraiseError
+    core_exceptions.reraise(klass(api_lib_exceptions.HttpException(err)))
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 149, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/six/__init__.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/services/serviceusage.py", line 666, in EnableApiCall
+    return client.services.Enable(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/generated_clients/apis/serviceusage/v1/serviceusage_v1_client.py", line 263, in Enable
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 747, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 753, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 612, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+googlecloudsdk.api_lib.services.exceptions.EnableServicePermissionDeniedException: PERMISSION_DENIED: Permission denied to enable service [cloudresourcemanager.googleapis.com]
+Help Token: AYJSUtlSmJ9IoMsQdnA9e_Q84j0xRWrhLZPHay19t4iwTfLVAlghhFrgp-1WcDHgrT50auetl5IoD2JJyUqZn-VmYP4CUs4UQ5JVhgapJgJ8WeuN. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=110002&service=serviceusage.googleapis.com&permission=serviceusage.services.enable&resource=105026328049
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    permission: serviceusage.services.enable
+    resource: '105026328049'
+    service: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED
+2024-10-29 16:24:32,647 ERROR    root            (gcloud.projects.list) PERMISSION_DENIED: Permission denied to enable service [cloudresourcemanager.googleapis.com]
+Help Token: AYJSUtlSmJ9IoMsQdnA9e_Q84j0xRWrhLZPHay19t4iwTfLVAlghhFrgp-1WcDHgrT50auetl5IoD2JJyUqZn-VmYP4CUs4UQ5JVhgapJgJ8WeuN. This command is authenticated as ansible-admin@practica4-1234.iam.gserviceaccount.com which is the active account specified by the [core/account] property
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=110002&service=serviceusage.googleapis.com&permission=serviceusage.services.enable&resource=105026328049
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  metadata:
+    permission: serviceusage.services.enable
+    resource: '105026328049'
+    service: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED

@@ -1,0 +1,32 @@
+[user]
+	name = jdrp
+	email = jdiazderabago@gmail.com
+[safe]
+	directory = /mnt/shared/Documents/ns-3-dev/masticc
+	directory = /mnt/shared/Documents/ns-3-dev/
+	directory = /mnt/shared/Documents/ns-3-dev
+	directory = /mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg/llm_hallucinations
+	directory = /mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project
+	directory = /mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/learncpp/learnopengl/1.5imgui/libs/assimp-src
+	directory = /mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/4-1/sistemas de comunicacion/sistemas_comunicacion_p1
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/senyaleslab3
+	directory = /mnt/shared/Documents/OneDrive/icai/tfg/llm_hallucinations
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/senyaleslab3/.git
+	directory = /mnt/shared/Documents/OneDrive/learncpp/learnopengl/1.5imgui/libs/assimp-src
+	directory = /mnt/shared/Documents/OneDrive/learncpp/learnopengl/1.5imgui
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/lab4
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/lab4/sistemaslab4
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/sistemaslab4
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/sistemas de comunicacion/Prime-Project
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/seguridad en sistemas de comunicacion
+	directory = /mnt/shared/Documents/OneDrive/icai/4-1/seguridad en sistemas de comunicacion/practica-breach
+	directory = /mnt/shared/Documents/OneDrive/learncpp/raytracer
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[alias]
+	lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+[core]
+	autocrlf = input

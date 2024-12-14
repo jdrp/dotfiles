@@ -1,0 +1,366 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="project" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="14x6pt6hg4r21" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/geom_utils.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="264">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network_utils.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="242">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_1.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1166">
+              <caret line="53" column="69" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_2.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="880">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_3.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="946">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_4.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="545">
+              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scheduler.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="462">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Python": {
+      "usageCount": 54,
+      "lastUsed": 1717511670874
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>0</find>
+      <find>1</find>
+      <find>2</find>
+      <find>3</find>
+      <find>0.</find>
+      <find>1.</find>
+      <find>2.</find>
+      <find>3.</find>
+      <find>math</find>
+      <find>TS</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>0.</replace>
+      <replace>1.</replace>
+      <replace>2.</replace>
+      <replace>3.</replace>
+      <replace>0</replace>
+      <replace>1</replace>
+      <replace>2</replace>
+      <replace>3</replace>
+      <replace>np</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="ae103dac:GitBranchType" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/hexagon.py" />
+      <option value="$PROJECT_DIR$/main.py" />
+      <option value="$PROJECT_DIR$/network_utils.py" />
+      <option value="$PROJECT_DIR$/geom_utils.py" />
+      <option value="$PROJECT_DIR$/exercise_1.py" />
+      <option value="$PROJECT_DIR$/exercise_2.py" />
+      <option value="$PROJECT_DIR$/scheduler.py" />
+      <option value="$PROJECT_DIR$/exercise_3.py" />
+      <option value="$PROJECT_DIR$/exercise_4.py" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Python">
+      <summary usageCount="54" lastUsage="1717511670874" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/javierdrp/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project/plots}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="mySelectedTabIndex" value="-1" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33515626" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.4069326" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.3148148" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" weight="0.36039886" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <unified_weights bottom="0.3148148" left="0.33515626" />
+    </layoutV2>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4815104" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.36039886" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <unified_weights bottom="0.36039886" left="0.4815104" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Terminal</value>
+      <value>Debug</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="213" width="800" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1716503207898">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="213" width="800" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1716503207898" />
+    <state width="1838" height="289" key="GridCell.Tab.0.bottom" timestamp="1716829248015">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="289" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1716829248015" />
+    <state width="1838" height="289" key="GridCell.Tab.0.center" timestamp="1716829248014">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="289" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1716829248014" />
+    <state width="1838" height="289" key="GridCell.Tab.0.left" timestamp="1716829248014">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="289" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1716829248014" />
+    <state width="1838" height="289" key="GridCell.Tab.0.right" timestamp="1716829248014">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="289" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1716829248014" />
+    <state width="1838" height="337" key="GridCell.Tab.1.bottom" timestamp="1716576127301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="337" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1716576127301" />
+    <state width="1838" height="337" key="GridCell.Tab.1.center" timestamp="1716576127301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="337" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1716576127301" />
+    <state width="1838" height="337" key="GridCell.Tab.1.left" timestamp="1716576127301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="337" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1716576127301" />
+    <state width="1838" height="337" key="GridCell.Tab.1.right" timestamp="1716576127301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1838" height="337" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1716576127301" />
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1716648719017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1716648719017" />
+    <state x="623" y="248" width="680" height="713" key="search.everywhere.popup" timestamp="1716567701708">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="248" width="680" height="713" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1716567701708" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/delft/mobile networks/project/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="69" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="114" column="44" lean-forward="true" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geom_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

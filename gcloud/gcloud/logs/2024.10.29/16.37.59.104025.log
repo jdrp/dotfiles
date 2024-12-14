@@ -1,0 +1,40 @@
+2024-10-29 16:37:59,105 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 16:37:59,106 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'delete']
+2024-10-29 16:37:59,129 DEBUG    root            Running [gcloud.container.clusters.delete] with arguments: [NAME:1: "['cluster1']"]
+2024-10-29 16:37:59,129 DEBUG    root            Chosen display Format:list[title="The following clusters will be deleted."]
+2024-10-29 16:38:00,214 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:01,279 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "DELETE /v1/projects/practica5-1234/locations/europe-west1-b/clusters/cluster1?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:01,284 INFO     ___FILE_ONLY___ Deleting cluster cluster1...
+2024-10-29 16:38:01,286 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:01,556 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:06,566 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:06,793 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:11,804 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:12,248 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:17,256 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:17,572 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:22,580 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:22,893 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:27,902 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:28,425 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:33,431 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 16:38:33,880 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730216281115-186b0366-ca41-48ca-91bb-c0ed26c3bbdb?alt=json HTTP/1.1" 200 None
+2024-10-29 16:38:36,765 DEBUG    root            (gcloud.container.clusters.delete) Aborted by user.
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/container/clusters/delete.py", line 128, in Run
+    adapter.WaitForOperation(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1985, in WaitForOperation
+    operation = _WaitForOperation()
+                ^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1976, in _WaitForOperation
+    time.sleep(poll_period_s)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/console/progress_tracker.py", line 154, in _CtrlCHandler
+    raise console_io.OperationCancelledError(self._aborted_message)
+googlecloudsdk.core.console.console_io.OperationCancelledError: Aborted by user.
+2024-10-29 16:38:36,770 ERROR    root            (gcloud.container.clusters.delete) Aborted by user.

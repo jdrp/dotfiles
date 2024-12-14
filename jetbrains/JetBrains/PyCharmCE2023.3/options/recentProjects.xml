@@ -1,0 +1,100 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/light-edit">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="activationTimestamp" value="1708460701021" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/mnt/shared/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tfg – translate_icd_to_description.py" projectWorkspaceId="2ce8Uo5p2aPfdC02FBAL2KCw0QZ">
+              <option name="activationTimestamp" value="1709214356955" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.14475.56" />
+              <option name="buildTimestamp" value="1708902120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1709213934467" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/llama2base">
+          <value>
+            <RecentProjectMetaInfo frameTitle="llama2base" projectWorkspaceId="2c1yYL37CytbuumIMpRjKyEBSKc">
+              <option name="activationTimestamp" value="1709287270022" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.14475.56" />
+              <option name="buildTimestamp" value="1708902120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1709214357248" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ns-3-dev/masticc">
+          <value>
+            <RecentProjectMetaInfo frameTitle="masticc – network_topology.py" projectWorkspaceId="2doWgWLohzCIglS6DHh1uJwSF4w">
+              <option name="activationTimestamp" value="1710675090701" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.14475.56" />
+              <option name="buildTimestamp" value="1708902120000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1710675022573" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/OneDrive - Universidad Pontificia Comillas/icai/tfg">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tfg – report_xml_to_prompt.py" projectWorkspaceId="2ce8Uo5p2aPfdC02FBAL2KCw0QZ">
+              <option name="activationTimestamp" value="1712333775409" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.15026.15" />
+              <option name="buildTimestamp" value="1711010520000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1712155349223" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ns-3-dev">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ns-3-dev – process_pcap.py" opened="true" projectWorkspaceId="2doWp339j7SDVHlTq4FQiO3lKSK">
+              <option name="activationTimestamp" value="1713463246759" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-233.15026.15" />
+              <option name="buildTimestamp" value="1711010520000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1712333810472" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/ns-3-dev" />
+    <option name="lastProjectLocation" value="$USER_HOME$" />
+  </component>
+</application>

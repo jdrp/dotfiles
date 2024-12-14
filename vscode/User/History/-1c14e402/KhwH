@@ -1,0 +1,10 @@
+.vscode/
+
+build/
+
+cmake-build-debug/
+
+.gitignore
+
+.idea/
+.clangd

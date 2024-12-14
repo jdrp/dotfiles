@@ -1,0 +1,3 @@
+2024-10-29 21:20:17,416 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 21:20:17,419 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'create']
+2024-10-29 21:20:17,437 ERROR    root            (gcloud.container.clusters.create) argument NAME: Must be specified.

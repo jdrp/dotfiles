@@ -1,0 +1,13 @@
+2024-10-29 22:24:52,769 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 22:24:52,770 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2024-10-29 22:24:52,793 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [NAME: "scaling-demo"]
+2024-10-29 22:24:52,795 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2024-10-29 22:24:52,797 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:24:53,023 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-10-29 22:24:53,048 DEBUG    root            Saved kubeconfig to /home/javierdrp/.kube/config
+2024-10-29 22:24:53,048 INFO     ___FILE_ONLY___ kubeconfig entry generated for scaling-demo.
+
+2024-10-29 22:24:53,048 DEBUG    root            Chosen display Format:default
+2024-10-29 22:24:53,049 INFO     root            Display format: "default"
+2024-10-29 22:24:53,049 DEBUG    root            SDK update checks are disabled.

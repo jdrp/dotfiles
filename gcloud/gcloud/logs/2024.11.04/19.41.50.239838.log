@@ -1,0 +1,35 @@
+2024-11-04 19:41:50,241 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-11-04 19:41:50,242 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2024-11-04 19:41:50,244 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2024-11-04 19:41:50,327 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-11-04 19:41:50,328 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-11-04 19:41:50,576 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-11-04 19:41:50,590 DEBUG    root            Chosen display Format:default json
+2024-11-04 19:41:50,590 INFO     root            Display format: "default json"
+2024-11-04 19:41:50,602 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "compute": {
+        "region": "europe-west1",
+        "zone": "europe-west1-b"
+      },
+      "core": {
+        "account": "jdiazderabago@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "proyectotest-1"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AeDClZBEnFW-zSYoJO_rKLOicblZZPVwznC7dtnFaKZCHOFsG8oiGY7WZYyWyx-xGzhTqDVSNeaSbkX8sCiabCwkVQ3H2q33P80Uslm7ztgbIfavG2vq0JisTzpYTb2kquLsPEU1YA2Ndz9EZiL1gYC8149nNI1GJi6IDvdtb0PFCtoaCgYKAZASARISFQHGX2Mi0LIYXXBUhDtJq45B1xmXKg0182",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImU4NjNmZTI5MmZhMmEyOTY3Y2Q3NTUxYzQyYTEyMTFiY2FjNTUwNzEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExOTExMDA5MTcwOTYxOTU4NjUzIiwiZW1haWwiOiJqZGlhemRlcmFiYWdvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiSml5cHlVdHJyRDJVYTkyaUdza3JZdyIsImlhdCI6MTczMDc0NTcxMCwiZXhwIjoxNzMwNzQ5MzEwfQ.eCDLWy0-_0DMgPofTZa_FVHYz_sOpDS6v-TuH9IDZsoyTxipkIm6MP0cKr2vYLfCikx3786meHmj8BVWOIsQnhJUKgMBuuZ_3-JykGCg1BTyjGBscYrm2W_j64uEEyRKZpQ5fNPu0t-BlFLW7eUVLuZSaDeggJ1ncuw_UvAFSQ7KeqL_Gbipjed8xsSJgVRzGRu-CL6ldZ3l2_7sI0q7qRvSoKHOOQcaGNOzuGuJ4jH9hMIuN29U19YnOKtfEoeDCiYvpuMM0zkj9xtns0nILq6RlMAPacI9cVyKjmNFlPuy2S4MLHMvGQ0p0CWBi3xkDZJATfDB3APDbkbZ7XAp7g",
+    "token_expiry": "2024-11-04T19:41:49Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/javierdrp/.config/gcloud/config_sentinel"
+  }
+}
+2024-11-04 19:41:50,602 INFO     ___FILE_ONLY___ 
+
+2024-11-04 19:41:50,602 DEBUG    root            SDK update checks are disabled.

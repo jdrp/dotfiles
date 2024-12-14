@@ -1,0 +1,41 @@
+2024-10-07 10:48:31,770 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-07 10:48:31,802 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2024-10-07 10:48:31,804 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [--zone: "europe-west1-b", [USER@]INSTANCE: "terraform"]
+2024-10-07 10:48:31,910 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-07 10:48:31,911 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-07 10:48:32,043 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-07 10:48:32,048 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-07 10:48:32,049 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-07 10:48:32,180 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-07 10:48:32,329 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 10:48:32,648 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234/zones/europe-west1-b/instances/terraform?alt=json HTTP/1.1" 200 None
+2024-10-07 10:48:32,655 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-07 10:48:33,060 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/practica4-1234?alt=json HTTP/1.1" 200 None
+2024-10-07 10:48:33,102 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-07 10:48:33,102 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-07 10:48:33,209 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-07 10:48:33,213 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-10-07 10:48:33,214 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-07 10:48:33,331 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-10-07 10:48:33,429 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oslogin.googleapis.com:443
+2024-10-07 10:48:33,693 DEBUG    urllib3.connectionpool https://oslogin.googleapis.com:443 "GET /v1/users/ansible-admin@practica4-1234.iam.gserviceaccount.com/loginProfile?alt=json&projectId=practica4-1234 HTTP/1.1" 200 None
+2024-10-07 10:48:33,699 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oslogin.googleapis.com:443
+2024-10-07 10:48:34,190 DEBUG    urllib3.connectionpool https://oslogin.googleapis.com:443 "POST /v1/users/ansible-admin@practica4-1234.iam.gserviceaccount.com:importSshPublicKey?alt=json&projectId=practica4-1234&regions=europe-west1 HTTP/1.1" 200 None
+2024-10-07 10:48:34,194 INFO     root            Using OS Login user [sa_113398283024571425457] instead of default user [javierdrp]
+2024-10-07 10:48:34,194 DEBUG    root            OS Login Enabled: True
+2FA Enabled: None
+Security Keys Enabled: None
+Username: sa_113398283024571425457
+Third Party User: False
+SSH Security Key Support: None
+Environment: ssh
+Security Keys:
+
+Signed SSH Key: False
+Require Certificates: None
+
+2024-10-07 10:48:34,204 DEBUG    root            Running command [/usr/bin/ssh -t -i /home/javierdrp/.ssh/google_compute_engine -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.6785088143611536108 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/home/javierdrp/.ssh/google_compute_known_hosts sa_113398283024571425457@34.77.222.122].
+2024-10-07 10:48:34,204 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-i', '/home/javierdrp/.ssh/google_compute_engine', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.6785088143611536108', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=no', '-o', 'UserKnownHostsFile=/home/javierdrp/.ssh/google_compute_known_hosts', 'sa_113398283024571425457@34.77.222.122']
+2024-10-07 10:48:48,654 DEBUG    root            Chosen display Format:default
+2024-10-07 10:48:48,655 INFO     root            Display format: "default"
+2024-10-07 10:48:48,655 DEBUG    root            SDK update checks are disabled.

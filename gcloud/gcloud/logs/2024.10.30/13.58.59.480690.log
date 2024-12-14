@@ -1,0 +1,8 @@
+2024-10-30 13:58:59,481 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2024-10-30 13:58:59,481 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'print_refresh_token']
+2024-10-30 13:58:59,482 DEBUG    root            Running [gcloud.auth.print-refresh-token] with arguments: []
+2024-10-30 13:58:59,489 DEBUG    root            Chosen display Format:value(refresh_token)
+2024-10-30 13:58:59,490 INFO     root            Display format: "value(refresh_token)"
+2024-10-30 13:58:59,496 INFO     ___FILE_ONLY___ 1//03hskaUXDQp-NCgYIARAAGAMSNwF-L9IrCoOIdJVdLdyvLzb2r8_T1nXTIpfY9wwptrPlEhAKpkVOw3crcZulhSaaQi1jwl37v9Q
+
+2024-10-30 13:58:59,497 DEBUG    root            SDK update checks are disabled.

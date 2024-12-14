@@ -1,0 +1,16 @@
+2024-10-30 13:31:10,276 DEBUG    root            Loaded Command Group: ['gcloud', 'run']
+2024-10-30 13:31:10,368 DEBUG    root            Loaded Command Group: ['gcloud', 'run', 'services']
+2024-10-30 13:31:10,395 DEBUG    root            Loaded Command Group: ['gcloud', 'run', 'services', 'delete']
+2024-10-30 13:31:10,397 DEBUG    root            Running [gcloud.run.services.delete] with arguments: [--region: "europe-southwest1", SERVICE: "cloud-run-example"]
+2024-10-30 13:31:17,891 INFO     ___FILE_ONLY___ Deleting [cloud-run-example]...
+2024-10-30 13:31:17,893 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:31:18,096 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "DELETE /apis/serving.knative.dev/v1/namespaces/proyectotest-1/services/cloud-run-example?alt=json HTTP/1.1" 200 None
+2024-10-30 13:31:18,100 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:31:18,235 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "GET /apis/serving.knative.dev/v1/namespaces/proyectotest-1/services/cloud-run-example?alt=json HTTP/1.1" 200 None
+2024-10-30 13:31:20,940 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): europe-southwest1-run.googleapis.com:443
+2024-10-30 13:31:21,039 DEBUG    urllib3.connectionpool https://europe-southwest1-run.googleapis.com:443 "GET /apis/serving.knative.dev/v1/namespaces/proyectotest-1/services/cloud-run-example?alt=json HTTP/1.1" 404 None
+2024-10-30 13:31:21,097 INFO     ___FILE_ONLY___ Deleted service [cloud-run-example].
+
+2024-10-30 13:31:21,097 DEBUG    root            Chosen display Format:default
+2024-10-30 13:31:21,097 INFO     root            Display format: "default"
+2024-10-30 13:31:21,097 DEBUG    root            SDK update checks are disabled.

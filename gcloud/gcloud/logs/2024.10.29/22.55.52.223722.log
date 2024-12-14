@@ -1,0 +1,148 @@
+2024-10-29 22:55:52,225 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2024-10-29 22:55:52,226 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'delete']
+2024-10-29 22:55:53,529 DEBUG    root            Running [gcloud.container.clusters.delete] with arguments: [--quiet: "True", NAME:1: "['scaling-demo']"]
+2024-10-29 22:55:53,530 DEBUG    root            Chosen display Format:list[title="The following clusters will be deleted."]
+2024-10-29 22:55:53,531 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:55:54,246 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "DELETE /v1/projects/practica5-1234/locations/europe-west1-b/clusters/scaling-demo?alt=json HTTP/1.1" 200 None
+2024-10-29 22:55:54,251 INFO     ___FILE_ONLY___ Deleting cluster scaling-demo...
+2024-10-29 22:55:54,254 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:55:54,525 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:55:59,533 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:55:59,850 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:04,858 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:05,176 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:10,184 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:10,499 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:15,504 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:15,824 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:20,830 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:21,150 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:26,156 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:26,474 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:31,479 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:31,700 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:36,706 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:36,916 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:41,923 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:42,153 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:47,159 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:47,539 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:52,545 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:52,893 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:56:57,899 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:56:58,218 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:03,227 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:03,543 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:08,550 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:08,867 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:13,876 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:14,193 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:19,200 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:19,517 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:24,524 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:24,842 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:29,849 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:30,169 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:35,176 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:35,406 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:40,411 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:40,714 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:45,717 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:46,038 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:51,040 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:51,363 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:57:56,366 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:57:56,688 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:01,690 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:02,013 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:07,016 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:07,440 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:12,442 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:12,765 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:17,767 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:18,089 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:23,092 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:23,415 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:28,417 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:28,739 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:33,741 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:34,064 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:39,069 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:39,390 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:44,398 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:44,715 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:49,724 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:50,041 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:58:55,050 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:58:55,364 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:00,372 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:00,691 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:05,701 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:06,016 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:11,022 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:11,339 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:16,349 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:16,765 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:21,772 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:22,091 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:27,098 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:27,325 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:32,333 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:32,639 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:37,647 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:37,964 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:42,972 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:43,288 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:48,296 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:48,613 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:53,621 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:54,040 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 22:59:59,049 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 22:59:59,365 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:04,373 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:04,648 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:09,656 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:10,015 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:15,022 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:15,339 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:20,345 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:20,664 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:25,669 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:25,989 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:30,994 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:31,313 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:36,320 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:36,639 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:41,646 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:41,964 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:46,971 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:47,289 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:52,297 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:52,615 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:00:57,624 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:00:57,938 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:01:02,946 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:01:03,263 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:01:08,272 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:01:08,587 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:01:13,595 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:01:13,912 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:01:18,920 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2024-10-29 23:01:19,237 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/practica5-1234/locations/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9?alt=json HTTP/1.1" 200 None
+2024-10-29 23:01:19,241 INFO     root            Operation <Operation
+ clusterConditions: []
+ endTime: '2024-10-29T22:01:14.870029007Z'
+ name: 'operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9'
+ nodepoolConditions: []
+ operationType: OperationTypeValueValuesEnum(DELETE_CLUSTER, 2)
+ selfLink: 'https://container.googleapis.com/v1/projects/453953318241/zones/europe-west1-b/operations/operation-1730238954161-89414655-6369-4744-b406-f8fff76056e9'
+ startTime: '2024-10-29T21:55:54.161729961Z'
+ status: StatusValueValuesEnum(DONE, 3)
+ targetLink: 'https://container.googleapis.com/v1/projects/453953318241/zones/europe-west1-b/clusters/scaling-demo'
+ zone: 'europe-west1-b'> finished after 3.25e+02 seconds
+2024-10-29 23:01:19,284 DEBUG    root            Purged cluster config from /home/javierdrp/.config/gcloud/kubernetes/practica5-1234_europe-west1-b_scaling-demo
+2024-10-29 23:01:19,285 INFO     ___FILE_ONLY___ Deleted [https://container.googleapis.com/v1/projects/practica5-1234/zones/europe-west1-b/clusters/scaling-demo].
+
+2024-10-29 23:01:19,285 DEBUG    root            Chosen display Format:none
+2024-10-29 23:01:19,285 INFO     root            Display format: "none"
+2024-10-29 23:01:19,286 DEBUG    root            SDK update checks are disabled.

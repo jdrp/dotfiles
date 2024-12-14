@@ -1,0 +1,182 @@
+2024-10-30 13:59:01,942 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2024-10-30 13:59:02,075 DEBUG    root            Loaded Command Group: ['gcloud', 'functions', 'deploy']
+2024-10-30 13:59:02,085 DEBUG    root            Running [gcloud.functions.deploy] with arguments: [--docker-registry: "artifact-registry", --entry-point: "ingest_transaction", --memory: "512MB", --no-gen2: "false", --runtime: "python38", --timeout: "60", --trigger-event: "google.storage.object.finalize", --trigger-resource: "asr-cloud-test-01", NAME: "ingester-transactions"]
+2024-10-30 13:59:02,095 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:02,773 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/projects/proyectotest-1/locations/us-central1/functions/ingester-transactions?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:02,787 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:03,535 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v2/projects/proyectotest-1/locations/us-central1/runtimes?alt=json&filter=name%3Dpython38+AND+environment%3DGEN_1 HTTP/1.1" 200 None
+2024-10-30 13:59:03,539 WARNING  root            Python 3.8 is no longer supported by the Python community as of 14 October, 2024. Runtime python38 is currently deprecated for Cloud Functions. We recommend you to upgrade to the latest version of Python as soon as possible.
+2024-10-30 13:59:03,542 INFO     root            Not using ignore file.
+2024-10-30 13:59:03,542 INFO     root            Not using ignore file.
+2024-10-30 13:59:03,553 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:04,146 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "POST /v1/projects/proyectotest-1/locations/us-central1/functions:generateUploadUrl?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:04,153 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): storage.googleapis.com:443
+2024-10-30 13:59:04,922 DEBUG    urllib3.connectionpool https://storage.googleapis.com:443 "PUT /uploads-674828758397.us-central1.cloudfunctions.appspot.com/1bc20f05-bcc3-4934-a7d7-cebf490f06eb.zip?GoogleAccessId=service-166772230865%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1730294944&Signature=SYQoyIJ1c4dg9clpLZu%2BzSMgwa9w7jFskWFio0NzcAjZHzV6g7QS3ug862EC5iCHYQGubi7HTl1ZSRRZc6MdoO3km%2BExMAMGSHwzwX3UJU0cYCNiZCTXbqzn0K1QZXoCzgd66fBKoDUJpmjAGiX8%2BRE1CVHpqPXAZfOeuDBQduQCs6MwELIlO10i9QFiLv6v4hIfBKzz4dtPAl81sc9mEXANHVlyhRfcqQJX5up1%2F3DH12LsgtTOwnQARavbmifQGPFG4Bo3nEFFJp364vPIeKrMIn61cXo774LhqoGxZmdLw4Ly67wCQR9QcOCstpjyUp3oZPVUyRNwoiXXDW7V8g%3D%3D HTTP/1.1" 200 0
+2024-10-30 13:59:04,935 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:59:05,797 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/proyectotest-1/services/cloudbuild.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:05,817 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2024-10-30 13:59:06,625 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/proyectotest-1/services/artifactregistry.googleapis.com?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:06,687 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-10-30 13:59:07,366 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/proyectotest-1?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:07,375 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:07,855 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "PATCH /v1/projects/proyectotest-1/locations/us-central1/functions/ingester-transactions?alt=json&updateMask=availableMemoryMb%2CdockerRegistry%2CentryPoint%2CeventTrigger%2ChttpsTrigger%2Cruntime%2CsourceUploadUrl%2Ctimeout HTTP/1.1" 200 None
+2024-10-30 13:59:07,863 INFO     ___FILE_ONLY___ Deploying function (may take a while - up to 2 minutes)...
+2024-10-30 13:59:07,865 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:08,124 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:09,763 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:10,034 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:10,043 INFO     ___FILE_ONLY___ 
+For Cloud Build Logs, visit: https://console.cloud.google.com/cloud-build/builds;region=us-central1/86751f19-93c1-4ae0-8424-6df1185c9cae?project=166772230865
+
+2024-10-30 13:59:11,989 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:12,273 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:13,735 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:13,980 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:15,465 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:15,775 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:17,198 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:17,494 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:19,161 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:19,543 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:20,841 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:21,185 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:23,058 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:23,332 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:24,424 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:24,676 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:26,624 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:27,018 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:28,232 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:28,235 DEBUG    root            Caught socket error, retrying: HTTPSConnectionPool(host='cloudfunctions.googleapis.com', port=443): Max retries exceeded with url: /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7b5b88474a50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-10-30 13:59:28,236 DEBUG    root            Retrying request to url https://cloudfunctions.googleapis.com/v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json after exception HTTPSConnectionPool(host='cloudfunctions.googleapis.com', port=443): Max retries exceeded with url: /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7b5b88474a50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-10-30 13:59:30,081 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:30,410 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:32,124 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:32,358 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:33,563 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:33,825 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:34,980 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:35,306 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:36,781 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:37,039 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:38,549 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:38,866 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:40,321 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:40,607 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:41,703 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:42,039 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:43,854 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:44,191 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:45,432 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:45,692 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:46,984 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:47,366 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:48,445 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:48,904 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:50,186 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:50,542 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:51,676 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:52,076 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:53,628 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:53,919 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:55,525 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:55,865 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:57,482 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 13:59:57,810 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 13:59:59,676 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:00,063 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:01,612 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:01,907 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:03,319 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:03,647 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:05,154 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:05,696 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:07,092 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:07,641 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:08,651 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:08,972 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:10,062 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:10,313 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:11,619 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:11,942 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:13,591 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:13,990 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:15,787 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:16,142 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:17,602 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:17,984 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:19,794 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:20,135 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:22,007 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:22,695 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:24,030 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:24,436 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:25,845 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:26,176 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:27,915 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:28,875 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:30,555 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:30,841 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:32,211 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:32,482 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:33,514 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:33,773 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:34,821 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:35,072 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:36,826 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:37,087 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:38,464 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:38,722 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:40,507 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:40,861 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:42,625 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:42,908 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:44,552 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:44,956 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:46,486 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:46,803 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:48,793 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:49,156 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:50,965 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:51,511 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:52,879 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:53,252 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:54,540 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:54,992 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:56,526 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudfunctions.googleapis.com:443
+2024-10-30 14:00:56,938 DEBUG    urllib3.connectionpool https://cloudfunctions.googleapis.com:443 "GET /v1/operations/cHJveWVjdG90ZXN0LTEvdXMtY2VudHJhbDEvaW5nZXN0ZXItdHJhbnNhY3Rpb25zLzhEX1JFWlZ4YVdJ?alt=json HTTP/1.1" 200 None
+2024-10-30 14:00:56,943 DEBUG    root            (gcloud.functions.deploy) OperationError: code=7, message=Insufficient permissions to (re)configure a trigger (permission denied for bucket asr-cloud-test-01). Please, give owner permissions to the editor role of the bucket and try again. Please visit https://cloud.google.com/functions/docs/troubleshooting for in-depth troubleshooting documentation.
+Traceback (most recent call last):
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/util.py", line 387, in CatchHTTPErrorRaiseHTTPExceptionFn
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/functions/util.py", line 73, in Run
+    return self._RunV1(args)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/surface/functions/deploy.py", line 138, in _RunV1
+    return command_v1.Run(args, track=self.ReleaseTrack())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/command_lib/functions/v1/deploy/command.py", line 820, in Run
+    api_util.WaitForFunctionUpdateOperation(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/util.py", line 387, in CatchHTTPErrorRaiseHTTPExceptionFn
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/util.py", line 459, in WaitForFunctionUpdateOperation
+    operations.Wait(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/operations.py", line 167, in Wait
+    _WaitForOperation(client, request, notice, try_set_invoker, on_every_poll)
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/operations.py", line 121, in _WaitForOperation
+    retryer.RetryOnResult(
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/core/util/retry.py", line 239, in RetryOnResult
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/bin/../lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/functions/v1/operations.py", line 78, in _GetOperationStatus
+    raise exceptions.FunctionsError(OperationErrorToString(op.error))
+googlecloudsdk.api_lib.functions.v1.exceptions.FunctionsError: OperationError: code=7, message=Insufficient permissions to (re)configure a trigger (permission denied for bucket asr-cloud-test-01). Please, give owner permissions to the editor role of the bucket and try again. Please visit https://cloud.google.com/functions/docs/troubleshooting for in-depth troubleshooting documentation.
+2024-10-30 14:00:56,946 ERROR    root            (gcloud.functions.deploy) OperationError: code=7, message=Insufficient permissions to (re)configure a trigger (permission denied for bucket asr-cloud-test-01). Please, give owner permissions to the editor role of the bucket and try again. Please visit https://cloud.google.com/functions/docs/troubleshooting for in-depth troubleshooting documentation.

@@ -1,0 +1,18 @@
+2024-10-30 12:43:14,574 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-10-30 12:43:14,574 DEBUG    root            Running [gcloud.config] with arguments: [-h: "None"]
+2024-10-30 12:43:14,584 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'virtualenv']
+2024-10-30 12:43:14,585 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2024-10-30 12:43:14,587 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2024-10-30 12:43:14,588 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations']
+2024-10-30 12:43:14,589 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get']
+2024-10-30 12:43:14,613 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-10-30 12:43:14,615 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2024-10-30 12:43:14,616 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'universe_descriptors']
+2024-10-30 12:43:14,617 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'unset']
+2024-10-30 12:43:14,618 INFO     ___FILE_ONLY___ Usage: gcloud config [optional flags] <group | command>
+  group may be           configurations
+  command may be         get | list | set | unset
+
+For detailed information on this command and its flags, run:
+  gcloud config --help
+
