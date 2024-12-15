@@ -1,3 +1,6 @@
+vim.g.mapleader = " "
+require("config.lazy")
+
 if vim.g.vscode then
 
   -- VSCode Neovim
@@ -5,8 +8,9 @@ if vim.g.vscode then
 
 end
 -- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
 
 vim.g.loaded_perl_provider = 0
 
 require("config.keymaps")
+
+

@@ -104,6 +104,11 @@ if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
+
+if [ -f ~/.bash_exports ]; then
+  . ~/.bash_exports
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -115,15 +120,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
 [[ -s /home/javierdrp/.autojump/etc/profile.d/autojump.sh ]] && source /home/javierdrp/.autojump/etc/profile.d/autojump.sh
 
-export CUDA_VISIBLE_DEVICES=0
 
-export OLLAMA_CUDA=1
-export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
-export XDG_RUNTIME_DIR=/run/user/$(id -u)
-export PATH="$HOME/.cargo/bin:$PATH"

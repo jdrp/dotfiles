@@ -13,7 +13,7 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "pyright",         -- Python
-          "tsserver",        -- JavaScript/TypeScript
+          "ts_ls",        -- JavaScript/TypeScript
           "clangd",          -- C/C++
           "jdtls",           -- Java
           "html",            -- HTML
@@ -29,7 +29,7 @@ return {
       local lspconfig = require("lspconfig")
       local servers = {
         pyright = {},
-        tsserver = {},
+        ts_ls = {},
         clangd = {},
         jdtls = {},
         html = {},

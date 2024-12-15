@@ -80,8 +80,6 @@ plugins=(
 )
 
 
-
-
 source $ZSH/oh-my-zsh.sh
 source /etc/os-release
 
@@ -115,21 +113,18 @@ source /etc/os-release
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(jump shell)"
-      
-export OLLAMA_CUDA=1
-export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
 
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
-export XDG_RUNTIME_DIR=/run/user/$(id -u)
-export PATH="$HOME/.cargo/bin:$PATH"
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+if [ -f ~/.bash_exports ]; then
+    source ~/.bash_exports
+fi
 
 # zplug "jeffreytse/zsh-vi-mode"
+#
+
+
+bindkey "^[[Z" autosuggest-accept
