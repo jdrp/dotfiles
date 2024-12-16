@@ -14,3 +14,11 @@ vim.g.loaded_perl_provider = 0
 require("config.keymaps")
 
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    local arg = vim.fn.argv(0)
+    if vim.fn.isdirectory(arg) == 1 then
+      vim.cmd("cd " .. arg)
+    end
+  end
+})

@@ -19,7 +19,8 @@ return {
           "html",            -- HTML
           "cssls",           -- CSS
           "r_language_server", -- R
-          "texlab",          -- LaTeX (MATLAB-like syntax)
+          "texlab",          -- LaTeX 
+	  "matlab_ls", --Matlab
           "emmet_ls",        -- HTML/TSX snippets
         },
         automatic_installation = true,
@@ -36,6 +37,7 @@ return {
         cssls = {},
         r_language_server = {},
         texlab = {},
+	matlab_ls = {},
         emmet_ls = { filetypes = { "html", "css", "javascriptreact", "typescriptreact" } },
       }
       for server, config in pairs(servers) do

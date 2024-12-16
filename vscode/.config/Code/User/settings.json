@@ -69,4 +69,5 @@
     "search.exclude": {
         "**/node_modules": false
     },
+    "editor.minimap.enabled": false,
 }
