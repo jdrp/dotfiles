@@ -5,7 +5,7 @@ return {
     config = function()
       require("nvim-treesitter.configs").setup({
         ensure_installed = {
-          "python", "javascript", "typescript", "c", "cpp", "java", "html", "css", "tsx", "r",
+          "python", "javascript", "typescript", "c", "cpp", "java", "html", "css", "tsx", "r", "matlab"
         },
         highlight = { enable = true },
         incremental_selection = {
