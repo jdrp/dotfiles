@@ -39,6 +39,4 @@ vim.opt.softtabstop = 4    -- Number of spaces inserted/deleted when pressing <T
 -- Ensure consistency across file types
 vim.cmd('filetype plugin indent on')
 
--- Optionally, display tabs as 4 spaces visually
-vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·' }
+vim.opt.relativenumber = true
