@@ -1,3 +1,11 @@
+function Map(mode, lhs, rhs, opts)
+    local options = { noremap = true, silent = true }
+    if opts then
+        options = vim.tbl_extend("force", options, opts)
+    end
+    vim.keymap.set(mode, lhs, rhs, options)
+end
+
 
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Add any additional keymaps here
@@ -57,7 +65,6 @@ vim.api.nvim_set_keymap('n', '<leader><leader>m', ':Telescope marks<CR>', { nore
 vim.api.nvim_set_keymap('n', '<leader>/', ':Telescope current_buffer_fuzzy_find<CR>', { noremap = true, silent = true, desc = "Fuzzy find in buffer" })
 vim.api.nvim_set_keymap('n', '<leader>r', ':Telescope lsp_references<CR>', { noremap = true, silent = true, desc = "Find references" })
 
--- Git-specific mappings
-vim.api.nvim_set_keymap('n', '<leader>gb', ':Telescope git_branches<CR>', { noremap = true, silent = true, desc = "Git branches" })
-vim.api.nvim_set_keymap('n', '<leader>gs', ':Telescope git_status<CR>', { noremap = true, silent = true, desc = "Git status" })
-
+-- Substitute in line
+vim.api.nvim_set_keymap('v', '<leader>s', '"zy:s/<C-r>z//g<Left><Left>', { noremap = true, silent = true, desc = "Replace selection globally" })
+vim.api.nvim_set_keymap('n', '<leader>s', '"zyiw:s/<C-r>z//g<Left><Left>', { noremap = true, silent = true, desc = "Replace word globally" })

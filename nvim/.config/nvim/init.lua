@@ -18,11 +18,11 @@ vim.api.nvim_create_autocmd("VimEnter", {
   callback = function()
     local arg = vim.fn.argv(0)
     if vim.fn.isdirectory(arg) == 1 then
-      vim.cmd("cd " .. arg)
+      local real_path = vim.fn.resolve(arg)  -- Resolve symlinks to the real path
+      vim.cmd("cd " .. vim.fn.fnameescape(real_path))
     end
   end
 })
-
 
 vim.api.nvim_create_autocmd("VimLeavePre", {
     pattern = "*",
@@ -39,4 +39,9 @@ vim.opt.softtabstop = 4    -- Number of spaces inserted/deleted when pressing <T
 -- Ensure consistency across file types
 vim.cmd('filetype plugin indent on')
 
+-- Colors
+vim.opt.termguicolors = true
+vim.cmd.colorscheme "catppuccin"
+
 vim.opt.relativenumber = true
+vim.o.sessionoptions="blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"

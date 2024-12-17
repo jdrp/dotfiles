@@ -76,7 +76,6 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
-    zsh-vi-mode
 )
 
 
@@ -122,9 +121,5 @@ fi
 if [ -f ~/.bash_exports ]; then
     source ~/.bash_exports
 fi
-
-# zplug "jeffreytse/zsh-vi-mode"
-#
-
 
 bindkey "^[[Z" autosuggest-accept
