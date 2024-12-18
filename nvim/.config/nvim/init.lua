@@ -36,6 +36,9 @@ vim.opt.shiftwidth = 4     -- Number of spaces to use for autoindent
 vim.opt.expandtab = true   -- Use spaces instead of tabs
 vim.opt.softtabstop = 4    -- Number of spaces inserted/deleted when pressing <Tab>/<BS>
 
+-- Enable mouse
+vim.opt.mouse = 'a'
+
 -- Ensure consistency across file types
 vim.cmd('filetype plugin indent on')
 

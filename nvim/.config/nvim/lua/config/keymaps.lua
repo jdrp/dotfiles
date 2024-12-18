@@ -11,60 +11,70 @@ end
 -- Add any additional keymaps here
 
 -- Keymaps for inserting a new line without entering insert mode
-vim.api.nvim_set_keymap("n", "o", "o<Esc>", { noremap = true, silent = true, desc = "New line below" })
-vim.api.nvim_set_keymap("n", "O", "O<Esc>", { noremap = true, silent = true, desc = "New line above" })
+Map("n", "o", "o<Esc>", { desc = "New line below" })
+Map("n", "O", "O<Esc>", { desc = "New line above" })
 
 -- Yank to system clipboard with <leader>y
-vim.api.nvim_set_keymap('n', '<leader>y', '"+y', { noremap = true, silent = true, desc = "Copy to clipboard" })
-vim.api.nvim_set_keymap('v', '<leader>y', '"+y', { noremap = true, silent = true, desc = "Copy selection to clipboard" })
+Map('n', '<leader>y', '"+y', { desc = "Copy to clipboard" })
+Map('v', '<leader>y', '"+y', { desc = "Copy selection to clipboard" })
 
 -- Yank entire file to clipboard with <leader>Y
-vim.api.nvim_set_keymap('n', '<leader>Y', ':%y+<CR>', { noremap = true, silent = true, desc = "Copy entire file to clipboard" })
+Map('n', '<leader>Y', ':%y+<CR>', { desc = "Copy entire file to clipboard" })
 
 -- Paste from system clipboard with <leader>p
-vim.api.nvim_set_keymap('n', '<leader>P', '"+P', { noremap = true, silent = true, desc = "Paste above" })
-vim.api.nvim_set_keymap('n', '<leader>p', '"+p', { noremap = true, silent = true, desc = "Paste below" })
-vim.api.nvim_set_keymap('v', '<leader>P', '"+P', { noremap = true, silent = true, desc = "Paste above selection" })
-vim.api.nvim_set_keymap('v', '<leader>p', '"+p', { noremap = true, silent = true, desc = "Paste below selection" })
+Map('n', '<leader>P', '"+P', { desc = "Paste above" })
+Map('n', '<leader>p', '"+p', { desc = "Paste below" })
+Map('v', '<leader>P', '"+P', { desc = "Paste above selection" })
+Map('v', '<leader>p', '"+p', { desc = "Paste below selection" })
 
 -- Remap Y to behave like yy (yank the entire line)
-vim.api.nvim_set_keymap('n', 'Y', 'yy', { noremap = true, silent = true, desc = "Copy line" })
+Map('n', 'Y', 'yy', { desc = "Copy line" })
 
 -- Delete mappings
-vim.api.nvim_set_keymap('n', 'd', '"_d', { noremap = true, silent = true, desc = "Delete" })
-vim.api.nvim_set_keymap('n', 'D', '"_D', { noremap = true, silent = true, desc = "Delete line" })
-vim.api.nvim_set_keymap('v', 'd', '"_d', { noremap = true, silent = true, desc = "Delete selection" })
-vim.api.nvim_set_keymap('n', '<leader>d', 'd', { noremap = true, silent = true, desc = "Cut" })
-vim.api.nvim_set_keymap('n', '<leader>D', 'D', { noremap = true, silent = true, desc = "Cut line" })
-vim.api.nvim_set_keymap('v', '<leader>d', 'd', { noremap = true, silent = true, desc = "Cut selection" })
+Map('n', 'd', '"_d', { desc = "Delete" })
+Map('n', 'D', '"_D', { desc = "Delete line" })
+Map('v', 'd', '"_d', { desc = "Delete selection" })
+Map('n', '<leader>d', 'd', { desc = "Cut" })
+Map('n', '<leader>D', 'D', { desc = "Cut line" })
+Map('v', '<leader>d', 'd', { desc = "Cut selection" })
 
 -- Cut single character
-vim.api.nvim_set_keymap('n', 'x', '"_x', { noremap = true, silent = true, desc = "Delete character" })
-vim.api.nvim_set_keymap('n', '<leader>x', 'x', { noremap = true, silent = true, desc = "Cut character" })
+Map('n', 'x', '"_x', { desc = "Delete character" })
+Map('n', '<leader>x', 'x', { desc = "Cut character" })
 
 -- Change mappings
-vim.api.nvim_set_keymap('n', 'c', '"_c', { noremap = true, silent = true, desc = "Change" })
-vim.api.nvim_set_keymap('n', 'C', '"_C', { noremap = true, silent = true, desc = "Change line" })
-vim.api.nvim_set_keymap('v', 'c', '"_c', { noremap = true, silent = true, desc = "Change selection" })
-vim.api.nvim_set_keymap('n', '<leader>c', 'c', { noremap = true, silent = true, desc = "Cut and insert" })
-vim.api.nvim_set_keymap('n', '<leader>C', 'C', { noremap = true, silent = true, desc = "Cut line and insert" })
-vim.api.nvim_set_keymap('v', '<leader>c', 'c', { noremap = true, silent = true, desc = "Cut selection and insert" })
+Map('n', 'c', '"_c', { desc = "Change" })
+Map('n', 'C', '"_C', { desc = "Change line" })
+Map('v', 'c', '"_c', { desc = "Change selection" })
+Map('n', '<leader>c', 'c', { desc = "Cut and insert" })
+Map('n', '<leader>C', 'C', { desc = "Cut line and insert" })
+Map('v', '<leader>c', 'c', { desc = "Cut selection and insert" })
 
 -- Telescope core functions
-vim.api.nvim_set_keymap('n', '<leader>f', ':Telescope find_files<CR>', { noremap = true, silent = true, desc = "Find files" })
-vim.api.nvim_set_keymap('n', '<leader><leader>g', ':Telescope live_grep<CR>', { noremap = true, silent = true, desc = "Search text" })
-vim.api.nvim_set_keymap('n', '<leader><leader>b', ':Telescope buffers<CR>', { noremap = true, silent = true, desc = "List buffers" })
-vim.api.nvim_set_keymap('n', '<leader><leader>h', ':Telescope help_tags<CR>', { noremap = true, silent = true, desc = "Help tags" })
-vim.api.nvim_set_keymap('n', '<leader><leader>o', ':Telescope oldfiles<CR>', { noremap = true, silent = true, desc = "Recent files" })
-vim.api.nvim_set_keymap('n', '<leader><leader>s', ':Telescope grep_string<CR>', { noremap = true, silent = true, desc = "Search word under cursor" })
-vim.api.nvim_set_keymap('n', '<leader><leader>c', ':Telescope commands<CR>', { noremap = true, silent = true, desc = "Find commands" })
-vim.api.nvim_set_keymap('n', '<leader><leader>k', ':Telescope keymaps<CR>', { noremap = true, silent = true, desc = "Show keymaps" })
-vim.api.nvim_set_keymap('n', '<leader><leader>m', ':Telescope marks<CR>', { noremap = true, silent = true, desc = "List marks" })
+Map('n', '<leader>f', ':Telescope find_files<CR>', { desc = "Find files" })
+Map('n', '<leader><leader>g', ':Telescope live_grep<CR>', { desc = "Search text" })
+Map('n', '<leader><leader>b', ':Telescope buffers<CR>', { desc = "List buffers" })
+Map('n', '<leader><leader>h', ':Telescope help_tags<CR>', { desc = "Help tags" })
+Map('n', '<leader><leader>o', ':Telescope oldfiles<CR>', { desc = "Recent files" })
+Map('n', '<leader><leader>s', ':Telescope grep_string<CR>', { desc = "Search word under cursor" })
+Map('n', '<leader><leader>c', ':Telescope commands<CR>', { desc = "Find commands" })
+Map('n', '<leader><leader>k', ':Telescope keymaps<CR>', { desc = "Show keymaps" })
+Map('n', '<leader><leader>m', ':Telescope marks<CR>', { desc = "List marks" })
 
 -- Additional functionality
-vim.api.nvim_set_keymap('n', '<leader>/', ':Telescope current_buffer_fuzzy_find<CR>', { noremap = true, silent = true, desc = "Fuzzy find in buffer" })
-vim.api.nvim_set_keymap('n', '<leader>r', ':Telescope lsp_references<CR>', { noremap = true, silent = true, desc = "Find references" })
+Map('n', '<leader>/', ':Telescope current_buffer_fuzzy_find<CR>', { desc = "Fuzzy find in buffer" })
+Map('n', '<leader>r', ':Telescope lsp_references<CR>', { desc = "Find references" })
 
 -- Substitute in line
-vim.api.nvim_set_keymap('v', '<leader>s', '"zy:s/<C-r>z//g<Left><Left>', { noremap = true, silent = true, desc = "Replace selection globally" })
-vim.api.nvim_set_keymap('n', '<leader>s', '"zyiw:s/<C-r>z//g<Left><Left>', { noremap = true, silent = true, desc = "Replace word globally" })
+Map('v', '<leader>s', '"zy:keepjumps %s/<C-r>z//g<Left><Left>', { desc = "Replace selection globally" })
+Map('n', '<leader>s', '"zyiw:keepjumps %s/<C-r>z//g<Left><Left>', { desc = "Replace word globally" })
+
+-- Window navigation
+Map('n', '<C-h>', '<C-w>h', { desc = "Change window (left)" })
+Map('n', '<C-j>', '<C-w>j', { desc = "Change window (down)" })
+Map('n', '<C-k>', '<C-w>k', { desc = "Change window (up)" })
+Map('n', '<C-l>', '<C-w>l', { desc = "Change window (right)" })
+
+-- Window creation
+Map('n', '<C-s>', '<C-w>s', { desc = "Split window (horizontal)" })
+Map('n', '<C-v>', '<C-w>v', { desc = "Split window (vertical)" })
